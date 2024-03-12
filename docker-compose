@@ -1,0 +1,71 @@
+version: '3.8'
+
+volumes:
+  prometheus_data: {}
+  grafana_storage: {}
+
+services:
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node-exporter
+    restart: unless-stopped
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.rootfs=/rootfs'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+    expose:
+      - 9100
+
+  prometheus:
+    image: prom/prometheus:v2.45.3
+    container_name: prometheus
+    restart: unless-stopped
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    ports:
+      - "9091:9090" 
+    expose:
+      - 9091
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=grafana
+    ports:
+      - "3002:3000"
+    expose:
+      - 3002 
+    volumes:
+      - "grafana_storage:/var/lib/grafana"
+        #- "./data/grafana:/var/lib/grafana"
+ 
+
+  fluent-bit:
+    image: cr.fluentbit.io/fluent/fluent-bit:2.2
+    container_name: fluent-bit
+    restart: unless-stopped
+    volumes:
+      - "./fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf"
+        #- "./fluentbit/data.log:/var/log/mail.log"
+      - "/var/log/mail.log:/var/log/mail.log"
+      - "./fluentbit/myparsers.conf:/fluent-bit/etc/myparsers.conf"
+      - "./fluentbit/stream.conf:/fluent-bit/etc/streams.conf"
+    ports:
+      - "2021:2021"
+    expose:
+      - 2021
