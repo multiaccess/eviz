@@ -40,4 +40,4 @@ RUN find /usr/share/grafana/public/build/ -name *.js -exec sed -i 's|LoginTitle=
 USER grafana
 
 ## Entrypoint
-ENTRYPOINT ["/bin/bash", "./entrypoint.sh"]
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
