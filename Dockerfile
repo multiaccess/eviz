@@ -22,11 +22,11 @@ RUN chmod +x /entrypoint.sh
 ##################################################################
 
 ## Replace Favicon and Apple Touch
-COPY img/fav.png /usr/share/grafana/public/img/fav.png
-COPY img/fav.png /usr/share/grafana/public/img/apple-touch-icon.png
+COPY img/fav32.png /usr/share/grafana/public/img/fav32.png
+COPY img/fav32.png /usr/share/grafana/public/img/apple-touch-icon.png
 
 ## Replace Logo
-COPY img/logo.png /usr/share/grafana/public/img/grafana_icon.png
+COPY img/logo32.png /usr/share/grafana/public/img/grafana_icon.png
 
 ## Update Background
 #COPY img/background.svg /usr/share/grafana/public/img/g8_login_light.svg
