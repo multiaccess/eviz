@@ -1,110 +1,39 @@
-1.Prerequisites:
-    * An Apache2 webserver installed and configured.
-    * Domain name pointed to the server's IP address.
-    * SSH access to your server.
-    * Administrative privileges (sudo access).
-    
-2.Setting Up Virtual Hosts (Recommended)
-   Create the directory for your_domain as follows:
-      sudo mkdir /var/www/your_domain
-   Next, assign ownership of the directory to the user you’re currently signed in as with the $USER environment variable:
-       sudo chown -R $USER:$USER /var/www/your_domain
-   To ensure that your permissions are correct and allow the owner to read, write, and execute the files while granting only read and execute permissions to groups and others, you can input the following command:
-       sudo chmod -R 755 /var/www/your_domain
-  Next, create a sample index.html page using nano/vim or your favorite editor:
-      sudo nano /var/www/your_domain/index.html 
-  Inside, add the following sample HTML:
+# Eviz: Observability Stack for Email Servers, Linux, and Web Servers
 
-    <html>
-    <head>
-        <title>Welcome to Your_domain!</title>
-    </head>
-    <body>
-        <h1>Success!  The your_domain virtual host is working!</h1>
-    </body>
-</html>  
+## Overview
+Eviz is an observability stack tailored for monitoring email servers, Linux systems, and web servers. It provides powerful tools for collecting, visualizing, and analyzing metrics and logs, enabling administrators to gain insights into the performance, health, and security of their infrastructure.
 
-3. Generating Let's Encrypt Certificate for Apache2 Webserver
-   Update Package List:
-          sudo apt update
-   The list of modules to be enabled:
-          a2enmod proxy
-          a2enmod proxy_http
-          a2enmod proxy_ajp 
-          a2enmod rewrite
-          a2enmod deflate
-          a2enmod headers
-          a2enmod proxy_balancer
-          a2enmod proxy_connect
-          a2enmod proxy_html
-          sudo a2enmod ssl
-    After running this command, you'll need to restart Apache for the changes to take effect:      
-         sudo systemctl restart apache2
-    
-   Install Certbot:
-         sudo apt install certbot python3-certbot-apache
-   Generate SSL Certificate:
-      sudo certbot --apache -d your_domain.com
-           Replace your_domain.com with your actual domain name.
-   After making changes to the Apache configuration, restart Apache to apply the changes:
-      sudo systemctl restart apache2
+## Features
+- **Email Server Monitoring:** Monitor key metrics such as email throughput, delivery rates, bounce rates, and queue sizes.
+- **Linux System Monitoring:** Track system resource usage, network activity, disk I/O, CPU load, and memory utilization.
+- **Web Server Monitoring:** Monitor web server response times, request rates, error rates, and server resource consumption.
+- **Dashboard Customization:** Create custom dashboards tailored to your specific monitoring needs.
+- **Alerting and Notification:** Set up alerts based on predefined thresholds or anomalies and receive notifications via email, SMS, or other channels.
+- **Log Management:** Centralize logs from email servers, Linux systems, and web servers for analysis and troubleshooting.
 
-4. Creating a virtual host file with the correct directives.
-       Open the Apache configuration file for your website. This is typically located in /etc/apache2/sites-available/ directory.
-    For example:    sudo vi /etc/apache2/sites-available/your_domain.conf
-      Replace your_domain.conf with the actual configuration file name of your website.
-    Inside this, add the following config which redirects your https domain to http,
-
-<VirtualHost monit.naivedayam.com:443>
-    ServerName monit.naivedayam.com
-    ServerAlias www.monit.naivedayam.com
-
-    DocumentRoot /var/www/domain.com
-
-    SSLEngine on 
-    SSLCertificateFile /etc/letsencrypt/live/domain.com/fullchain.pem
-    SSLCertificateKeyFile /etc/letsencrypt/live/domain.com/privkey.pem
+## Getting Started
+Follow these steps to set up Eviz and start monitoring your infrastructure:
 
 
-    <Directory /var/www/yourdomain.com>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted
-    </Directory>
+1. **Installation:**
 
+2. **Expose**
 
-    #RewriteEngine on
-    #RewriteRule ^/$ /grafana [R,L]
+## Documentation
+For detailed documentation, including installation instructions, configuration options, and usage guides, refer to the [Eviz documentation](https://docs.eviz.io/).
 
-    # ProxyPass for Grafana
-    ProxyPreserveHost On
-    ProxyPass "/" "http://localhost:3002/"
-    ProxyPassReverse "/" "http://localhost:3002/"
-</VirtualHost>
+## Support and Feedback
+For support or feedback, please contact our team at support@eviz.io or open an issue on [GitHub](https://github.com/eviz/eviz/issues).
 
+## License
+Eviz is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See the [LICENSE](LICENSE) file for more details.
 
-<VirtualHost yourdomain.com:80>
-    ProxyPreserveHost On
-    ServerName yourdomain.com
-    
-    ProxyPass "/" "http://localhost:3002/"
-    ProxyPassReverse "/" "http://localhost:3002/"
-   
-     #Additional configuration for your main site can go here
+## Contributions
+Eviz welcomes contributions from the community. To contribute, please follow these steps:
+- Fork the Eviz repository on [GitHub](https://github.com/jadcloudtech/eviz).
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them with clear and descriptive commit messages.
+- Push your changes to your fork.
+- Submit a pull request to the main Eviz repository.
 
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-
-    # Redirect HTTP to HTTPS
-    RewriteEngine On
-    RewriteCond %{HTTPS} off
-    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-</VirtualHost>
- 
-   Replace http://localhost:3002/ with your path to you application.
- 
-After making changes to the Apache configuration, restart Apache to apply the changes:
-      sudo systemctl restart apache2
-
-5.Test the web-server:
-     Open a web browser and visit your website using https://your_domain.com or http://your_domain.com.
+Your contributions help improve Eviz for everyone. Thank you for your support!
