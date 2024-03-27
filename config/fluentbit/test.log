@@ -1,0 +1,650 @@
+2024-03-01T16:54:42+05:30 dsmx01 postfix/cleanup[1022091]: 4DF3118029F0: warning: header Subject: Contract no.2RS-C: Replacement of Chief Signaling system Expert from unknown[106.51.122.122]; from=<swathisuvarna@bmrc.co.in> to=<usismeiro@systra.com> proto=ESMTP helo=<mail.bmrc.co.in>
+2024-03-01T16:54:42+05:30 dsmx01 postfix/cleanup[1022091]: 4DF3118029F0: message-id=<000001da6bcb$10bcc230$32364690$@bmrc.co.in>
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: 4DF3118029F0: [106.51.122.122] [106.51.122.122] not internal
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: 4DF3118029F0: not authenticated
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: 4DF3118029F0: no signature data
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtpd[1037894]: disconnect from unknown[106.51.122.122] ehlo=2 starttls=1 mail=1 rcpt=2 data=1 quit=1 commands=8
+2024-03-01T16:54:42+05:30 dsmx01 postfix/qmgr[796039]: 4DF3118029F0: from=<swathisuvarna@bmrc.co.in>, size=629040, nrcpt=2 (queue active)
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtps/smtpd[960037]: disconnect from unknown[223.191.38.46] ehlo=1 auth=1 mail=1 rcpt=6 data=1 quit=1 commands=11
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtp[1030103]: ADBB418029C2: to=<mailarchive+vinita+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=4.9, delays=2.1/0.02/0.28/2.5, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5ED461873D7)
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtp[1030103]: ADBB418029C2: to=<mailarchive+vivek+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=4.9, delays=2.1/0.02/0.28/2.5, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5ED461873D7)
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtps/smtpd[960037]: disconnect from unknown[223.191.38.46] ehlo=1 auth=1 mail=1 rcpt=6 data=1 quit=1 commands=11
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtp[1030103]: ADBB418029C2: to=<mailarchive+vinita+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=4.9, delays=2.1/0.02/0.28/2.5, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5ED461873D7)
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtp[1030103]: ADBB418029C2: to=<mailarchive+vivek+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=4.9, delays=2.1/0.02/0.28/2.5, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 5ED461873D7)
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtpd[1022169]: D624F18029FD: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:42+05:30 dsmx01 postfix/smtpd[1022169]: D624F18029FD: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:42+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[185.255.114.59]
+2024-03-01T16:54:42+05:30 dsmx01 postfix/cleanup[1022094]: D624F18029FD: message-id=<65e1baec7358_21d3f9a715a89a8568080.sidekiq-frequent-fd-podapsouth1-main-blue-7fcb45cfd4-2v59t@email.freshdesk.com>
+2024-03-01T16:54:42+05:30 dsmx01 postfix/cleanup[1022094]: D624F18029FD: warning: header Subject: Re: 6283083_PPMP_TDS/TCS_TCS details required - [#6283083] from out7.antispamcloud.com[94.75.244.176]; from=<bounces+mum.1.2601349.6283083-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com> to=<balaji@radhamanigroup.com> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: not authenticated
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: DKIM verification successful
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: s=fdindmail d=freshdesk.com a=rsa-sha256 SSL
+2024-03-01T16:54:42+05:30 dsmx01 postfix/qmgr[796039]: D624F18029FD: from=<bounces+mum.1.2601349.6283083-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com>, size=7038, nrcpt=3 (queue active)
+2024-03-01T16:54:43.038446+05:30 demo postfix/smtpd[588831]: disconnect from unknown[45.129.14.179] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1016509]: ADBB418029C2: to=<mailarchive+suresh.a+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.4, delays=2.1/0.02/0/3.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:42+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[185.255.114.59]
+2024-03-01T16:54:42+05:30 dsmx01 postfix/cleanup[1022094]: D624F18029FD: message-id=<65e1baec7358_21d3f9a715a89a8568080.sidekiq-frequent-fd-podapsouth1-main-blue-7fcb45cfd4-2v59t@email.freshdesk.com>
+2024-03-01T16:54:42+05:30 dsmx01 postfix/cleanup[1022094]: D624F18029FD: warning: header Subject: Re: 6283083_PPMP_TDS/TCS_TCS details required - [#6283083] from out7.antispamcloud.com[94.75.244.176]; from=<bounces+mum.1.2601349.6283083-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com> to=<balaji@radhamanigroup.com> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: not authenticated
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: DKIM verification successful
+2024-03-01T16:54:42+05:30 dsmx01 opendkim[3840330]: D624F18029FD: s=fdindmail d=freshdesk.com a=rsa-sha256 SSL
+2024-03-01T16:54:42+05:30 dsmx01 postfix/qmgr[796039]: D624F18029FD: from=<bounces+mum.1.2601349.6283083-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com>, size=7038, nrcpt=3 (queue active)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1016509]: ADBB418029C2: to=<mailarchive+suresh.a+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.4, delays=2.1/0.02/0/3.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtps/smtpd[960414]: connect from unknown[136.232.196.250]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtps/smtpd[960414]: connect from unknown[136.232.196.250]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtpd[1022169]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtpd[1022192]: connect from out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1015868]: D624F18029FD: to=<balaji@thehouseofrare.com>, orig_to=<balaji@radhamanigroup.com>, relay=dovecot, delay=0.48, delays=0.16/0.01/0/0.32, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1015856]: D624F18029FD: to=<balaji@radhamanigroup.com>, relay=dovecot, delay=0.49, delays=0.16/0.01/0/0.32, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtpd[1035833]: connect from out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtpd[1022169]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtpd[1022192]: connect from out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1015868]: D624F18029FD: to=<balaji@thehouseofrare.com>, orig_to=<balaji@radhamanigroup.com>, relay=dovecot, delay=0.48, delays=0.16/0.01/0/0.32, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1015856]: D624F18029FD: to=<balaji@radhamanigroup.com>, relay=dovecot, delay=0.49, delays=0.16/0.01/0/0.32, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/smtpd[1035833]: connect from out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/submission/smtpd[1018426 lost connection after EHLO from unknown[185.255.114.59]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[185.255.114.59] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:54:43+05:30 dsmx01 postfix/submission/smtpd[1018426 lost connection after EHLO from unknown[185.255.114.59]
+2024-03-01T16:54:43+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[185.255.114.59] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1016521]: 1EA1418029CB: to=<mailarchive+support+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=4, delays=0.73/0.01/0/3.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/qmgr[796039]: 1EA1418029CB: removed
+2024-03-01T16:54:43+05:30 dsmx01 postfix/pipe[1016521]: 1EA1418029CB: to=<mailarchive+support+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=4, delays=0.73/0.01/0/3.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:43+05:30 dsmx01 postfix/qmgr[796039]: 1EA1418029CB: removed
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtpd[1022165]: connect from out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtps/smtpd[960414]: 0DB5718029CB: client=unknown[136.232.196.250], sasl_method=LOGIN, sasl_username=akanthasamy@thehouseofrare.com
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtpd[1022165]: connect from out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtps/smtpd[960414]: 0DB5718029CB: client=unknown[136.232.196.250], sasl_method=LOGIN, sasl_username=akanthasamy@thehouseofrare.com
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1007363]: EB2E918028E1: to=<revanna@gcbmrcl.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.06/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3BC1D4228BF)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1007363]: EB2E918028E1: to=<sharathjn@gcbmrcl.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.06/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3BC1D4228BF)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/qmgr[796039]: EB2E918028E1: removed
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1007363]: EB2E918028E1: to=<revanna@gcbmrcl.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.06/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3BC1D4228BF)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1007363]: EB2E918028E1: to=<sharathjn@gcbmrcl.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.06/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3BC1D4228BF)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/qmgr[796039]: EB2E918028E1: removed
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1006924]: 4DF3118029F0: to=<ssangoram@systra.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.07/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 95DA8424502)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1006924]: 4DF3118029F0: to=<usismeiro@systra.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.07/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 95DA8424502)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/qmgr[796039]: 4DF3118029F0: removed
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1006924]: 4DF3118029F0: to=<ssangoram@systra.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.07/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 95DA8424502)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtpd[1022192]: C261E18028E1: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022093]: C261E18028E1: warning: header Subject: Notice Policy Expiring from out7.antispamcloud.com[94.75.244.176]; from=<Nivabupa.HealthInsurance@insurein.in> to=<arunkv@san-engineering.com> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022093]: C261E18028E1: message-id=<MA0P287MB051550345CB6CF736D92960A9C5E2@MA0P287MB0515.INDP287.PROD.OUTLOOK.COM>
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022090]: 0DB5718029CB: warning: header Subject: Recall: RAREISM -DOOZE // BANCHEO // MAGIA // SIMPLE   - (WINTRY) BENKTESH   to OPTUS   12-02-2024  Despatch details from unknown[136.232.196.250]; from=<akanthasamy@thehouseofrare.com> to=<vishal@thehouseofrare.com> proto=ESMTP helo=<LAPTOP4LGMRO2F>
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022090]: 0DB5718029CB: message-id=<!&!GAAAAAAAAAANJ4X/R+50SoQ2/FS7tFVZwoAAABgAAAAAAAAADSeF/0fudEqENvxUu7RVWQR/JgAAAAAAEAAAAM8ZtQTf2xtEqOfHM5R7XhZtAAAAUkFSRUlTTSAtRE9PWkUgLy8gQkFOQ0hFTyAvLyBNQUdJQSAvLyBTSU1QTEUgICAtIChXSU5UUlkpIEJFTktURVNIICAgdG8gT1BUVVMgICAxMi0wMi0yMDI0ICBEZXNwYXRjaCBkZXRhaWxzAA==@thehouseofrare.com>
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtp[1006924]: 4DF3118029F0: to=<usismeiro@systra.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.4, delays=0.07/0/1.1/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 95DA8424502)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/qmgr[796039]: 4DF3118029F0: removed
+2024-03-01T16:54:44+05:30 dsmx01 postfix/smtpd[1022192]: C261E18028E1: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022093]: C261E18028E1: warning: header Subject: Notice Policy Expiring from out7.antispamcloud.com[94.75.244.176]; from=<Nivabupa.HealthInsurance@insurein.in> to=<arunkv@san-engineering.com> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022093]: C261E18028E1: message-id=<MA0P287MB051550345CB6CF736D92960A9C5E2@MA0P287MB0515.INDP287.PROD.OUTLOOK.COM>
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022090]: 0DB5718029CB: warning: header Subject: Recall: RAREISM -DOOZE // BANCHEO // MAGIA // SIMPLE   - (WINTRY) BENKTESH   to OPTUS   12-02-2024  Despatch details from unknown[136.232.196.250]; from=<akanthasamy@thehouseofrare.com> to=<vishal@thehouseofrare.com> proto=ESMTP helo=<LAPTOP4LGMRO2F>
+2024-03-01T16:54:44+05:30 dsmx01 opendkim[3840330]: 0DB5718029CB: DKIM-Signature field added (s=mail, d=thehouseofrare.com)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/cleanup[1022090]: 0DB5718029CB: message-id=<!&!GAAAAAAAAAANJ4X/R+50SoQ2/FS7tFVZwoAAABgAAAAAAAAADSeF/0fudEqENvxUu7RVWQR/JgAAAAAAEAAAAM8ZtQTf2xtEqOfHM5R7XhZtAAAAUkFSRUlTTSAtRE9PWkUgLy8gQkFOQ0hFTyAvLyBNQUdJQSAvLyBTSU1QTEUgICAtIChXSU5UUlkpIEJFTktURVNIICAgdG8gT1BUVVMgICAxMi0wMi0yMDI0ICBEZXNwYXRjaCBkZXRhaWxzAA==@thehouseofrare.com>
+2024-03-01T16:54:44+05:30 dsmx01 opendkim[3840330]: 0DB5718029CB: DKIM-Signature field added (s=mail, d=thehouseofrare.com)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/qmgr[796039]: 0DB5718029CB: from=<akanthasamy@thehouseofrare.com>, size=4320, nrcpt=23 (queue active)
+2024-03-01T16:54:44+05:30 dsmx01 postfix/qmgr[796039]: 0DB5718029CB: from=<akanthasamy@thehouseofrare.com>, size=4320, nrcpt=23 (queue active)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtpd[1035833]: 1673D18029F0: client=out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:45+05:30 dsmx01 postfix/cleanup[1022092]: 1673D18029F0: message-id=<CAB9hU2BpJwFL9b4-Ewjhi1qEZ9Pzcpyoc+xVwaNFOrL+YSR4qQ@mail.gmail.com>
+2024-03-01T16:54:45+05:30 dsmx01 postfix/cleanup[1022092]: 1673D18029F0: warning: header Subject: Re: Not getting school emails from out8.antispamcloud.com[46.165.223.16]; from=<sumithalokesh86@gmail.com> to=<principal@npskudlu.com> proto=ESMTP helo=<out8.antispamcloud.com>
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtpd[1035833]: 1673D18029F0: client=out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:45+05:30 dsmx01 postfix/cleanup[1022092]: 1673D18029F0: message-id=<CAB9hU2BpJwFL9b4-Ewjhi1qEZ9Pzcpyoc+xVwaNFOrL+YSR4qQ@mail.gmail.com>
+2024-03-01T16:54:45+05:30 dsmx01 postfix/cleanup[1022092]: 1673D18029F0: warning: header Subject: Re: Not getting school emails from out8.antispamcloud.com[46.165.223.16]; from=<sumithalokesh86@gmail.com> to=<principal@npskudlu.com> proto=ESMTP helo=<out8.antispamcloud.com>
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: out8.antispamcloud.com [46.165.223.16] not internal
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: not authenticated
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: DKIM verification successful
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: s=20230601 d=gmail.com a=rsa-sha256 SSL
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: out8.antispamcloud.com [46.165.223.16] not internal
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: not authenticated
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: not authenticated
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: failed to parse authentication-results: header field
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: no signature data
+2024-03-01T16:54:45+05:30 dsmx01 postfix/qmgr[796039]: C261E18028E1: from=<Nivabupa.HealthInsurance@insurein.in>, size=29027, nrcpt=2 (queue active)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/qmgr[796039]: 1673D18029F0: from=<sumithalokesh86@gmail.com>, size=10180, nrcpt=2 (queue active)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1015741]: 0DB5718029CB: to=<anand@thehouseofrare.com>, relay=dovecot, delay=1.6, delays=0.93/0.04/0/0.65, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1016519]: 0DB5718029CB: to=<hanumanth@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.71, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: DKIM verification successful
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: 1673D18029F0: s=20230601 d=gmail.com a=rsa-sha256 SSL
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: not authenticated
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: failed to parse authentication-results: header field
+2024-03-01T16:54:45+05:30 dsmx01 opendkim[3840330]: C261E18028E1: no signature data
+2024-03-01T16:54:45+05:30 dsmx01 postfix/qmgr[796039]: C261E18028E1: from=<Nivabupa.HealthInsurance@insurein.in>, size=29027, nrcpt=2 (queue active)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/qmgr[796039]: 1673D18029F0: from=<sumithalokesh86@gmail.com>, size=10180, nrcpt=2 (queue active)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1015741]: 0DB5718029CB: to=<anand@thehouseofrare.com>, relay=dovecot, delay=1.6, delays=0.93/0.04/0/0.65, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1016519]: 0DB5718029CB: to=<hanumanth@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.71, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1015757]: 0DB5718029CB: to=<vishal@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.75, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1016507]: 0DB5718029CB: to=<selva@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.75, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtpd[1022192]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=3 quit=1 commands=9
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1016567]: 0DB5718029CB: to=<appaiah@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.77, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1015755]: 0DB5718029CB: to=<mohitchugh@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.78, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtpd[1035833]: disconnect from out8.antispamcloud.com[46.165.223.16] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1015757]: 0DB5718029CB: to=<vishal@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.75, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1016507]: 0DB5718029CB: to=<selva@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.75, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtpd[1022192]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=3 quit=1 commands=9
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1016567]: 0DB5718029CB: to=<appaiah@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.77, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/pipe[1015755]: 0DB5718029CB: to=<mohitchugh@thehouseofrare.com>, relay=dovecot, delay=1.7, delays=0.93/0.04/0/0.78, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtp[1006917]: ADBB418029C2: to=<mailarchive+shantanu+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=8.3, delays=2.1/0.02/2.9/3.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as EE20C18740A)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtp[1006917]: ADBB418029C2: to=<mailarchive+shirshendu+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=8.3, delays=2.1/0.02/2.9/3.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as EE20C18740A)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/qmgr[796039]: ADBB418029C2: removed
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtpd[1035833]: disconnect from out8.antispamcloud.com[46.165.223.16] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtp[1006917]: ADBB418029C2: to=<mailarchive+shantanu+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=8.3, delays=2.1/0.02/2.9/3.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as EE20C18740A)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/smtp[1006917]: ADBB418029C2: to=<mailarchive+shirshendu+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=8.3, delays=2.1/0.02/2.9/3.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as EE20C18740A)
+2024-03-01T16:54:45+05:30 dsmx01 postfix/qmgr[796039]: ADBB418029C2: removed
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtpd[1022165]: 0EE8F18029C2: client=out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtpd[1022165]: 0EE8F18029C2: client=out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:54:46.227985+05:30 demo postfix/smtpd[589005]: warning: unknown[45.129.14.128]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:46+05:30 dsmx01 postfix/cleanup[1022099]: 0EE8F18029C2: warning: header Subject: RE: Urgent || 25 Item Updated Critical Shortage_Univa_23-Feb'24 from out9.antispamcloud.com[199.115.117.7]; from=<prvs=783da8c07=shakti.kikan@barco.com> to=<rajnish@unified.co.in> proto=ESMTP helo=<out9.antispamcloud.com>
+2024-03-01T16:54:46+05:30 dsmx01 postfix/cleanup[1022099]: 0EE8F18029C2: message-id=<AS8PR09MB5208CC7980B5DFC974E76AB08C5E2@AS8PR09MB5208.eurprd09.prod.outlook.com>
+2024-03-01T16:54:46+05:30 dsmx01 postfix/cleanup[1022099]: 0EE8F18029C2: warning: header Subject: RE: Urgent || 25 Item Updated Critical Shortage_Univa_23-Feb'24 from out9.antispamcloud.com[199.115.117.7]; from=<prvs=783da8c07=shakti.kikan@barco.com> to=<rajnish@unified.co.in> proto=ESMTP helo=<out9.antispamcloud.com>
+2024-03-01T16:54:46+05:30 dsmx01 postfix/cleanup[1022099]: 0EE8F18029C2: message-id=<AS8PR09MB5208CC7980B5DFC974E76AB08C5E2@AS8PR09MB5208.eurprd09.prod.outlook.com>
+2024-03-01T16:54:46.378237+05:30 demo postfix/smtpd[589005]: disconnect from unknown[45.129.14.128] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 warning: hostname 182.48.208.154.dvois.com does not resolve to address 182.48.208.154: Name or service not known
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[182.48.208.154]
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016463]: 0DB5718029CB: to=<manmohan@thehouseofrare.com>, relay=dovecot, delay=2.3, delays=0.93/0.04/0/1.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016479]: 0DB5718029CB: to=<satish@radhamanigroup.com>, relay=dovecot, delay=2.4, delays=0.93/0.04/0/1.5, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1015860]: 0DB5718029CB: to=<liswitha@thehouseofrare.com>, relay=dovecot, delay=2.4, delays=0.93/0.04/0/1.5, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1011021]: 0DB5718029CB: to=<shibu@thehouseofrare.com>, relay=dovecot, delay=2.4, delays=0.93/0.04/0/1.5, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 TLS SNI mail27.techser.com from unknown[182.48.208.154] not matched, using default chain
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1020073]: D624F18029FD: to=<mailarchive+balaji+radhamanigroup.com@radhamanigroup.com>, relay=136.232.196.250[136.232.196.250]:25, delay=3.7, delays=0.16/0.01/2.3/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 9C8971873D7)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/qmgr[796039]: D624F18029FD: removed
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 warning: hostname 182.48.208.154.dvois.com does not resolve to address 182.48.208.154: Name or service not known
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[182.48.208.154]
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016463]: 0DB5718029CB: to=<manmohan@thehouseofrare.com>, relay=dovecot, delay=2.3, delays=0.93/0.04/0/1.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016479]: 0DB5718029CB: to=<satish@radhamanigroup.com>, relay=dovecot, delay=2.4, delays=0.93/0.04/0/1.5, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1015860]: 0DB5718029CB: to=<liswitha@thehouseofrare.com>, relay=dovecot, delay=2.4, delays=0.93/0.04/0/1.5, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1011021]: 0DB5718029CB: to=<shibu@thehouseofrare.com>, relay=dovecot, delay=2.4, delays=0.93/0.04/0/1.5, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 TLS SNI mail27.techser.com from unknown[182.48.208.154] not matched, using default chain
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1020073]: D624F18029FD: to=<mailarchive+balaji+radhamanigroup.com@radhamanigroup.com>, relay=136.232.196.250[136.232.196.250]:25, delay=3.7, delays=0.16/0.01/2.3/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 9C8971873D7)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/qmgr[796039]: D624F18029FD: removed
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1007381]: 0DB5718029CB: to=<amit@optusimpex.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.5, delays=0.93/0.04/1.1/0.43, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 236B542207A)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1007381]: 0DB5718029CB: to=<info@optusimpex.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.5, delays=0.93/0.04/1.1/0.43, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 236B542207A)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1007381]: 0DB5718029CB: to=<amit@optusimpex.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.5, delays=0.93/0.04/1.1/0.43, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 236B542207A)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1007381]: 0DB5718029CB: to=<info@optusimpex.com>, relay=95.217.110.90[95.217.110.90]:25, delay=2.5, delays=0.93/0.04/1.1/0.43, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 236B542207A)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1035022]: 0DB5718029CB: to=<mailarchive+satish+radhamanigroup.com@radhamanigroup.com>, relay=136.232.196.250[136.232.196.250]:25, delay=2.8, delays=0.93/0.04/0.65/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as EC89D187440)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016529]: C261E18028E1: to=<arunkv@san-engineering.com>, relay=dovecot, delay=2.3, delays=1/0/0/1.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/smtp[1035022]: 0DB5718029CB: to=<mailarchive+satish+radhamanigroup.com@radhamanigroup.com>, relay=136.232.196.250[136.232.196.250]:25, delay=2.8, delays=0.93/0.04/0.65/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as EC89D187440)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016471]: 1673D18029F0: to=<mailarchive+principal+npskudlu.com@npskudlu.com>, relay=dovecot, delay=1.8, delays=0.62/0/0/1.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1015862]: 1673D18029F0: to=<principal@npskudlu.com>, relay=dovecot, delay=1.8, delays=0.62/0/0/1.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/qmgr[796039]: 1673D18029F0: removed
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 D97DE18029F0: client=unknown[182.48.208.154], sasl_method=LOGIN, sasl_username=sunilv@techser.com
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016529]: C261E18028E1: to=<arunkv@san-engineering.com>, relay=dovecot, delay=2.3, delays=1/0/0/1.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1016471]: 1673D18029F0: to=<mailarchive+principal+npskudlu.com@npskudlu.com>, relay=dovecot, delay=1.8, delays=0.62/0/0/1.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/pipe[1015862]: 1673D18029F0: to=<principal@npskudlu.com>, relay=dovecot, delay=1.8, delays=0.62/0/0/1.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:46+05:30 dsmx01 postfix/qmgr[796039]: 1673D18029F0: removed
+2024-03-01T16:54:46+05:30 dsmx01 postfix/submission/smtpd[1018426 D97DE18029F0: client=unknown[182.48.208.154], sasl_method=LOGIN, sasl_username=sunilv@techser.com
+2024-03-01T16:54:47+05:30 dsmx01 postfix/smtps/smtpd[960414]: disconnect from unknown[136.232.196.250] ehlo=1 auth=1 mail=1 rcpt=12 data=1 quit=1 commands=17
+2024-03-01T16:54:47+05:30 dsmx01 postfix/smtps/smtpd[960414]: disconnect from unknown[136.232.196.250] ehlo=1 auth=1 mail=1 rcpt=12 data=1 quit=1 commands=17
+2024-03-01T16:54:47+05:30 dsmx01 postfix/cleanup[1022013]: D97DE18029F0: warning: header Subject: INVOICE from unknown[182.48.208.154]; from=<sunilv@techser.com> to=<m.joshi@techser.com> proto=ESMTP helo=<Sunil>
+2024-03-01T16:54:47+05:30 dsmx01 postfix/cleanup[1022013]: D97DE18029F0: message-id=<000001da6bcb$10d07140$327153c0$@techser.com>
+2024-03-01T16:54:47+05:30 dsmx01 postfix/cleanup[1022013]: D97DE18029F0: warning: header Subject: INVOICE from unknown[182.48.208.154]; from=<sunilv@techser.com> to=<m.joshi@techser.com> proto=ESMTP helo=<Sunil>
+2024-03-01T16:54:47+05:30 dsmx01 postfix/cleanup[1022013]: D97DE18029F0: message-id=<000001da6bcb$10d07140$327153c0$@techser.com>
+2024-03-01T16:54:47+05:30 dsmx01 postfix/pipe[1011052]: C261E18028E1: to=<mailarchive+arunkv+san-engineering.com@san-engineering.com>, relay=dovecot, delay=3.3, delays=1/0/0/2.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:47+05:30 dsmx01 postfix/qmgr[796039]: C261E18028E1: removed
+2024-03-01T16:54:47+05:30 dsmx01 postfix/pipe[1011052]: C261E18028E1: to=<mailarchive+arunkv+san-engineering.com@san-engineering.com>, relay=dovecot, delay=3.3, delays=1/0/0/2.2, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:47+05:30 dsmx01 opendkim[3840330]: D97DE18029F0: DKIM-Signature field added (s=mail, d=techser.com)
+2024-03-01T16:54:47+05:30 dsmx01 postfix/qmgr[796039]: D97DE18029F0: from=<sunilv@techser.com>, size=3015082, nrcpt=3 (queue active)
+2024-03-01T16:54:47+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: out9.antispamcloud.com [199.115.117.7] not internal
+2024-03-01T16:54:47+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: not authenticated
+2024-03-01T16:54:47+05:30 dsmx01 postfix/qmgr[796039]: C261E18028E1: removed
+2024-03-01T16:54:47+05:30 dsmx01 opendkim[3840330]: D97DE18029F0: DKIM-Signature field added (s=mail, d=techser.com)
+2024-03-01T16:54:47+05:30 dsmx01 postfix/qmgr[796039]: D97DE18029F0: from=<sunilv@techser.com>, size=3015082, nrcpt=3 (queue active)
+2024-03-01T16:54:47+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: out9.antispamcloud.com [199.115.117.7] not internal
+2024-03-01T16:54:47+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: not authenticated
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016525]: D97DE18029F0: to=<m.joshi@techser.com>, relay=dovecot, delay=1.5, delays=1/0.01/0/0.47, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016525]: D97DE18029F0: to=<m.joshi@techser.com>, relay=dovecot, delay=1.5, delays=1/0.01/0/0.47, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016561]: 0DB5718029CB: to=<mailarchive+anand+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=4.5, delays=0.93/0.04/0/3.6, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016493]: 0DB5718029CB: to=<mailarchive+akanthasamy+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=4.5, delays=0.93/0.04/0/3.6, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016561]: 0DB5718029CB: to=<mailarchive+anand+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=4.5, delays=0.93/0.04/0/3.6, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016493]: 0DB5718029CB: to=<mailarchive+akanthasamy+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=4.5, delays=0.93/0.04/0/3.6, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016565]: D97DE18029F0: to=<mailarchive+m.joshi+techser.com@techser.com>, relay=dovecot, delay=1.8, delays=1/0.01/0/0.82, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016575]: D97DE18029F0: to=<mailarchive+sunilv+techser.com@techser.com>, relay=dovecot, delay=1.9, delays=1/0.01/0/0.84, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/qmgr[796039]: D97DE18029F0: removed
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016565]: D97DE18029F0: to=<mailarchive+m.joshi+techser.com@techser.com>, relay=dovecot, delay=1.8, delays=1/0.01/0/0.82, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/pipe[1016575]: D97DE18029F0: to=<mailarchive+sunilv+techser.com@techser.com>, relay=dovecot, delay=1.9, delays=1/0.01/0/0.84, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:48+05:30 dsmx01 postfix/qmgr[796039]: D97DE18029F0: removed
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1041329 warning: database /etc/postfix/vmail_ssl.map.db is older than source file /etc/postfix/vmail_ssl.map
+2024-03-01T16:54:48+05:30 dsmx01 postfix/submission/smtpd[1041329 warning: database /etc/postfix/vmail_ssl.map.db is older than source file /etc/postfix/vmail_ssl.map
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016549]: 0DB5718029CB: to=<mailarchive+hanumanth+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.2, delays=0.93/0.04/0/4.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016534]: 0DB5718029CB: to=<mailarchive+appaiah+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.2, delays=0.93/0.04/0/4.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016549]: 0DB5718029CB: to=<mailarchive+hanumanth+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.2, delays=0.93/0.04/0/4.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1015736]: 0DB5718029CB: to=<mailarchive+liswitha+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.3, delays=0.93/0.04/0/4.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: message has signatures from barco.com, Barcozone.onmicrosoft.com
+2024-03-01T16:54:49+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: DKIM verification successful
+2024-03-01T16:54:49+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: s=selector1-Barcozone-onmicrosoft-com d=Barcozone.onmicrosoft.com a=rsa-sha256 SSL
+2024-03-01T16:54:49+05:30 dsmx01 postfix/qmgr[796039]: 0EE8F18029C2: from=<prvs=783da8c07=shakti.kikan@barco.com>, size=287362, nrcpt=4 (queue active)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016534]: 0DB5718029CB: to=<mailarchive+appaiah+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.2, delays=0.93/0.04/0/4.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1015736]: 0DB5718029CB: to=<mailarchive+liswitha+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=5.3, delays=0.93/0.04/0/4.3, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: message has signatures from barco.com, Barcozone.onmicrosoft.com
+2024-03-01T16:54:49+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: DKIM verification successful
+2024-03-01T16:54:49+05:30 dsmx01 opendkim[3840330]: 0EE8F18029C2: s=selector1-Barcozone-onmicrosoft-com d=Barcozone.onmicrosoft.com a=rsa-sha256 SSL
+2024-03-01T16:54:49+05:30 dsmx01 postfix/qmgr[796039]: 0EE8F18029C2: from=<prvs=783da8c07=shakti.kikan@barco.com>, size=287362, nrcpt=4 (queue active)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016483]: 0EE8F18029C2: to=<mailarchive+rajnish+unified.co.in@unified.co.in>, relay=dovecot, delay=3.8, delays=3.5/0.01/0/0.39, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016483]: 0EE8F18029C2: to=<mailarchive+rajnish+unified.co.in@unified.co.in>, relay=dovecot, delay=3.8, delays=3.5/0.01/0/0.39, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/smtpd[1022165]: disconnect from out9.antispamcloud.com[199.115.117.7] ehlo=2 starttls=1 mail=1 rcpt=2 bdat=3 quit=1 commands=10
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1013716]: 0EE8F18029C2: to=<mailarchive+nishidha+unified.co.in@unified.co.in>, relay=dovecot, delay=3.9, delays=3.5/0.01/0/0.39, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016535]: 0EE8F18029C2: to=<rajnish@unified.co.in>, relay=dovecot, delay=3.9, delays=3.5/0.01/0/0.39, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016477]: 0EE8F18029C2: to=<nishidha@unified.co.in>, relay=dovecot, delay=3.9, delays=3.5/0.01/0/0.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/qmgr[796039]: 0EE8F18029C2: removed
+2024-03-01T16:54:49+05:30 dsmx01 postfix/smtpd[1022165]: disconnect from out9.antispamcloud.com[199.115.117.7] ehlo=2 starttls=1 mail=1 rcpt=2 bdat=3 quit=1 commands=10
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1013716]: 0EE8F18029C2: to=<mailarchive+nishidha+unified.co.in@unified.co.in>, relay=dovecot, delay=3.9, delays=3.5/0.01/0/0.39, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016535]: 0EE8F18029C2: to=<rajnish@unified.co.in>, relay=dovecot, delay=3.9, delays=3.5/0.01/0/0.39, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/pipe[1016477]: 0EE8F18029C2: to=<nishidha@unified.co.in>, relay=dovecot, delay=3.9, delays=3.5/0.01/0/0.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:49+05:30 dsmx01 postfix/qmgr[796039]: 0EE8F18029C2: removed
+2024-03-01T16:54:49+05:30 dsmx01 postfix/smtps/smtpd[991734]: connect from ip163.ip-141-94-146.eu[141.94.146.163]
+2024-03-01T16:54:49+05:30 dsmx01 postfix/smtps/smtpd[991734]: connect from ip163.ip-141-94-146.eu[141.94.146.163]
+2024-03-01T16:54:50+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[182.48.208.154] ehlo=2 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=8
+2024-03-01T16:54:50+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[182.48.208.154] ehlo=2 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=8
+2024-03-01T16:54:50+05:30 dsmx01 postfix/smtps/smtpd[999808]: warning: hostname 103.183.24.174.nstplnet.com does not resolve to address 103.183.24.174: Name or service not known
+2024-03-01T16:54:50+05:30 dsmx01 postfix/smtps/smtpd[999808]: connect from unknown[103.183.24.174]
+2024-03-01T16:54:50+05:30 dsmx01 postfix/smtps/smtpd[999808]: warning: hostname 103.183.24.174.nstplnet.com does not resolve to address 103.183.24.174: Name or service not known
+2024-03-01T16:54:50+05:30 dsmx01 postfix/smtps/smtpd[999808]: connect from unknown[103.183.24.174]
+2024-03-01T16:54:51+05:30 dsmx01 postfix/smtps/smtpd[999808]: 495D218028E1: client=unknown[103.183.24.174], sasl_method=LOGIN, sasl_username=salesacc@digjam.co.in
+2024-03-01T16:54:51+05:30 dsmx01 postfix/smtps/smtpd[999808]: 495D218028E1: client=unknown[103.183.24.174], sasl_method=LOGIN, sasl_username=salesacc@digjam.co.in
+2024-03-01T16:54:51+05:30 dsmx01 postfix/cleanup[1022087]: 495D218028E1: warning: header Subject: ATTENDANCE from unknown[103.183.24.174]; from=<salesacc@digjam.co.in> to=<salesppc@digjam.co.in> proto=ESMTP helo=<SALESACC>
+2024-03-01T16:54:51+05:30 dsmx01 postfix/cleanup[1022087]: 495D218028E1: message-id=<!&!AAAAAAAAAAAYAAAAAAAAAII3EQb3WaBBkPzj7ivo92fCgAAAEAAAAGQLbp5ZXsZPvxggcC/JOfEBAAAAAA==@digjam.co.in>
+2024-03-01T16:54:51+05:30 dsmx01 postfix/cleanup[1022087]: 495D218028E1: warning: header Subject: ATTENDANCE from unknown[103.183.24.174]; from=<salesacc@digjam.co.in> to=<salesppc@digjam.co.in> proto=ESMTP helo=<SALESACC>
+2024-03-01T16:54:51+05:30 dsmx01 postfix/cleanup[1022087]: 495D218028E1: message-id=<!&!AAAAAAAAAAAYAAAAAAAAAII3EQb3WaBBkPzj7ivo92fCgAAAEAAAAGQLbp5ZXsZPvxggcC/JOfEBAAAAAA==@digjam.co.in>
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1016559]: 0DB5718029CB: to=<mailarchive+mohitchugh+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.6, delays=0.93/3.6/0/3.1, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1016559]: 0DB5718029CB: to=<mailarchive+mohitchugh+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.6, delays=0.93/3.6/0/3.1, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 opendkim[3840330]: 495D218028E1: DKIM-Signature field added (s=mail, d=digjam.co.in)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/qmgr[796039]: 495D218028E1: from=<salesacc@digjam.co.in>, size=1591900, nrcpt=5 (queue active)
+2024-03-01T16:54:51+05:30 dsmx01 opendkim[3840330]: 495D218028E1: DKIM-Signature field added (s=mail, d=digjam.co.in)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/qmgr[796039]: 495D218028E1: from=<salesacc@digjam.co.in>, size=1591900, nrcpt=5 (queue active)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/submission/smtpd[1041329 connect from unknown[185.255.114.59]
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1016501]: 0DB5718029CB: to=<mailarchive+selva+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.9, delays=0.93/3.6/0/3.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/submission/smtpd[1041329 connect from unknown[185.255.114.59]
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1015753]: 0DB5718029CB: to=<mailarchive+shibu+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.9, delays=0.93/3.6/0/3.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1016517]: 0DB5718029CB: to=<mailarchive+manmohan+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.9, delays=0.93/3.6/0/3.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1016501]: 0DB5718029CB: to=<mailarchive+selva+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.9, delays=0.93/3.6/0/3.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1015753]: 0DB5718029CB: to=<mailarchive+shibu+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.9, delays=0.93/3.6/0/3.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:51+05:30 dsmx01 postfix/pipe[1016517]: 0DB5718029CB: to=<mailarchive+manmohan+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=7.9, delays=0.93/3.6/0/3.4, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1016573]: 0DB5718029CB: to=<mailarchive+vishal+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=8.2, delays=0.93/4.3/0/2.9, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/qmgr[796039]: 0DB5718029CB: removed
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1016573]: 0DB5718029CB: to=<mailarchive+vishal+thehouseofrare.com@thehouseofrare.com>, relay=dovecot, delay=8.2, delays=0.93/4.3/0/2.9, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/qmgr[796039]: 0DB5718029CB: removed
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1018426 warning: hostname Unified.co.in does not resolve to address 106.51.126.87
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[106.51.126.87]
+2024-03-01T16:54:52.440624+05:30 demo postfix/smtpd[589009]: connect from unknown[45.129.14.179]
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1018426 warning: hostname Unified.co.in does not resolve to address 106.51.126.87
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[106.51.126.87]
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1041329 lost connection after EHLO from unknown[185.255.114.59]
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1041329 disconnect from unknown[185.255.114.59] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1018426 TLS SNI mail.unified.co.in from unknown[106.51.126.87] not matched, using default chain
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1041329 lost connection after EHLO from unknown[185.255.114.59]
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1041329 disconnect from unknown[185.255.114.59] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:54:52+05:30 dsmx01 postfix/submission/smtpd[1018426 TLS SNI mail.unified.co.in from unknown[106.51.126.87] not matched, using default chain
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1011133]: 495D218028E1: to=<mailarchive+salesacc+digjam.co.in@digjam.co.in>, relay=dovecot, delay=1.3, delays=0.48/0.01/0/0.86, dsn=5.1.1, status=bounced (user unknown)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1015881]: 495D218028E1: to=<mailarchive+salesppc+digjam.co.in@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.86, dsn=5.1.1, status=bounced (user unknown)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1016551]: 495D218028E1: to=<mailarchive+sales+digjam.co.in@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.87, dsn=5.1.1, status=bounced (user unknown)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1016563]: 495D218028E1: to=<sales@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.88, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1015858]: 495D218028E1: to=<salesppc@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.89, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/qmgr[796039]: 495D218028E1: removed
+2024-03-01T16:54:52+05:30 dsmx01 postfix/cleanup[1022084]: 9C36818029CB: message-id=<20240301112452.9C36818029CB@dsmx01.naivedayam.com>
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1011133]: 495D218028E1: to=<mailarchive+salesacc+digjam.co.in@digjam.co.in>, relay=dovecot, delay=1.3, delays=0.48/0.01/0/0.86, dsn=5.1.1, status=bounced (user unknown)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1015881]: 495D218028E1: to=<mailarchive+salesppc+digjam.co.in@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.86, dsn=5.1.1, status=bounced (user unknown)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1016551]: 495D218028E1: to=<mailarchive+sales+digjam.co.in@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.87, dsn=5.1.1, status=bounced (user unknown)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1016563]: 495D218028E1: to=<sales@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.88, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/pipe[1015858]: 495D218028E1: to=<salesppc@digjam.co.in>, relay=dovecot, delay=1.4, delays=0.48/0.01/0/0.89, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:52+05:30 dsmx01 postfix/qmgr[796039]: 495D218028E1: removed
+2024-03-01T16:54:52+05:30 dsmx01 postfix/cleanup[1022084]: 9C36818029CB: message-id=<20240301112452.9C36818029CB@dsmx01.naivedayam.com>
+2024-03-01T16:54:53+05:30 dsmx01 postfix/submission/smtpd[1018426 0166018028E1: client=unknown[106.51.126.87], sasl_method=LOGIN, sasl_username=blr.cs3@unified.co.in
+2024-03-01T16:54:53+05:30 dsmx01 postfix/submission/smtpd[1018426 0166018028E1: client=unknown[106.51.126.87], sasl_method=LOGIN, sasl_username=blr.cs3@unified.co.in
+2024-03-01T16:54:53+05:30 dsmx01 postfix/cleanup[1022095]: 0166018028E1: warning: header Subject: RE: [EXTERNAL MESSAGE] RE: REQ. QUOTE......BMS13-60T27C02G020 --ppv from unknown[106.51.126.87]; from=<blr.cs3@unified.co.in> to=<swaroop@unified.co.in> proto=ESMTP helo=<BLRCS3>
+2024-03-01T16:54:53+05:30 dsmx01 postfix/cleanup[1022095]: 0166018028E1: message-id=<01de01da6bca$e00ff940$a02febc0$@unified.co.in>
+2024-03-01T16:54:53+05:30 dsmx01 postfix/cleanup[1022095]: 0166018028E1: warning: header Subject: RE: [EXTERNAL MESSAGE] RE: REQ. QUOTE......BMS13-60T27C02G020 --ppv from unknown[106.51.126.87]; from=<blr.cs3@unified.co.in> to=<swaroop@unified.co.in> proto=ESMTP helo=<BLRCS3>
+2024-03-01T16:54:53+05:30 dsmx01 postfix/cleanup[1022095]: 0166018028E1: message-id=<01de01da6bca$e00ff940$a02febc0$@unified.co.in>
+2024-03-01T16:54:53+05:30 dsmx01 opendkim[3840330]: 0166018028E1: DKIM-Signature field added (s=mail, d=unified.co.in)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/qmgr[796039]: 0166018028E1: from=<blr.cs3@unified.co.in>, size=48841, nrcpt=8 (queue active)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[998806]: warning: hostname broadband.actcorp.in does not resolve to address 106.51.170.190
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[998806]: connect from unknown[106.51.170.190]
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[1029664]: connect from unknown[157.38.97.167]
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[1029664]: TLS SNI imail.prayasfinance.com from unknown[157.38.97.167] not matched, using default chain
+2024-03-01T16:54:53+05:30 dsmx01 opendkim[3840330]: 0166018028E1: DKIM-Signature field added (s=mail, d=unified.co.in)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/qmgr[796039]: 0166018028E1: from=<blr.cs3@unified.co.in>, size=48841, nrcpt=8 (queue active)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[998806]: warning: hostname broadband.actcorp.in does not resolve to address 106.51.170.190
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[998806]: connect from unknown[106.51.170.190]
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[1029664]: connect from unknown[157.38.97.167]
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[1029664]: TLS SNI imail.prayasfinance.com from unknown[157.38.97.167] not matched, using default chain
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtpd[1038548]: connect from out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtpd[1038548]: connect from out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016499]: 0166018028E1: to=<mailarchive+blr.cs+unified.co.in@unified.co.in>, relay=dovecot, delay=0.91, delays=0.23/0.02/0/0.67, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016499]: 0166018028E1: to=<mailarchive+blr.cs+unified.co.in@unified.co.in>, relay=dovecot, delay=0.91, delays=0.23/0.02/0/0.67, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1015745]: 0166018028E1: to=<mailarchive+blr.cs3+unified.co.in@unified.co.in>, relay=dovecot, delay=0.93, delays=0.23/0.02/0/0.69, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016571]: 0166018028E1: to=<blr.cs@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.01/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1015759]: 0166018028E1: to=<sarang.pradeep@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016475]: 0166018028E1: to=<mailarchive+swaroop+unified.co.in@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016491]: 0166018028E1: to=<mailarchive+sarang.pradeep+unified.co.in@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.71, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1015872]: 0166018028E1: to=<swaroop@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.71, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[998806]: E5C9218029C2: client=unknown[106.51.170.190], sasl_method=LOGIN, sasl_username=creditservice@transcaal.com
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022083]: E5C9218029C2: warning: header Subject: MS/ENX6 Shift Allowances-FEB'2024  from unknown[106.51.170.190]; from=<creditservice@transcaal.com> to=<projects@transcal.in> proto=ESMTP helo=<DESKTOPCPSVHB0>
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022083]: E5C9218029C2: message-id=<016f01da6bcb$15ad8f40$4108adc0$@transcaal.com>
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1015745]: 0166018028E1: to=<mailarchive+blr.cs3+unified.co.in@unified.co.in>, relay=dovecot, delay=0.93, delays=0.23/0.02/0/0.69, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016571]: 0166018028E1: to=<blr.cs@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.01/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1015759]: 0166018028E1: to=<sarang.pradeep@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016475]: 0166018028E1: to=<mailarchive+swaroop+unified.co.in@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1016491]: 0166018028E1: to=<mailarchive+sarang.pradeep+unified.co.in@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.71, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/pipe[1015872]: 0166018028E1: to=<swaroop@unified.co.in>, relay=dovecot, delay=0.95, delays=0.23/0.02/0/0.71, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:53+05:30 dsmx01 postfix/smtps/smtpd[998806]: E5C9218029C2: client=unknown[106.51.170.190], sasl_method=LOGIN, sasl_username=creditservice@transcaal.com
+2024-03-01T16:54:54+05:30 dsmx01 opendkim[3840330]: E5C9218029C2: DKIM-Signature field added (s=mail, d=transcaal.com)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022083]: E5C9218029C2: warning: header Subject: MS/ENX6 Shift Allowances-FEB'2024  from unknown[106.51.170.190]; from=<creditservice@transcaal.com> to=<projects@transcal.in> proto=ESMTP helo=<DESKTOPCPSVHB0>
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022083]: E5C9218029C2: message-id=<016f01da6bcb$15ad8f40$4108adc0$@transcaal.com>
+2024-03-01T16:54:54+05:30 dsmx01 postfix/qmgr[796039]: E5C9218029C2: from=<creditservice@transcaal.com>, size=171912, nrcpt=6 (queue active)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/submission/smtpd[1041329 connect from unknown[59.88.167.142]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[1029664]: disconnect from unknown[157.38.97.167] ehlo=1 quit=1 commands=2
+2024-03-01T16:54:54+05:30 dsmx01 opendkim[3840330]: E5C9218029C2: DKIM-Signature field added (s=mail, d=transcaal.com)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/qmgr[796039]: E5C9218029C2: from=<creditservice@transcaal.com>, size=171912, nrcpt=6 (queue active)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/submission/smtpd[1041329 connect from unknown[59.88.167.142]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[1029664]: disconnect from unknown[157.38.97.167] ehlo=1 quit=1 commands=2
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: warning: hostname 49.205.120.228.actcorp.in does not resolve to address 49.205.120.228: Name or service not known
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: connect from unknown[49.205.120.228]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: TLS SNI mail.unified.co.in from unknown[49.205.120.228] not matched, using default chain
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999808]: disconnect from unknown[103.183.24.174] ehlo=1 auth=1 mail=1 rcpt=2 data=1 quit=1 commands=7
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: warning: hostname 49.205.120.228.actcorp.in does not resolve to address 49.205.120.228: Name or service not known
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: connect from unknown[49.205.120.228]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: TLS SNI mail.unified.co.in from unknown[49.205.120.228] not matched, using default chain
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999808]: disconnect from unknown[103.183.24.174] ehlo=1 auth=1 mail=1 rcpt=2 data=1 quit=1 commands=7
+2024-03-01T16:54:54.649628+05:30 demo postfix/smtpd[588831]: connect from unknown[45.129.14.128]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1015751]: E5C9218029C2: to=<onsitebilling@transcaal.com>, relay=dovecot, delay=0.66, delays=0.17/0.01/0/0.48, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1013714]: E5C9218029C2: to=<finance@transcaal.com>, relay=dovecot, delay=0.66, delays=0.17/0.01/0/0.48, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1015751]: E5C9218029C2: to=<onsitebilling@transcaal.com>, relay=dovecot, delay=0.66, delays=0.17/0.01/0/0.48, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: A4B0918029CB: client=unknown[49.205.120.228], sasl_method=LOGIN, sasl_username=rajesh.kumar@unified.co.in
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1013714]: E5C9218029C2: to=<finance@transcaal.com>, relay=dovecot, delay=0.66, delays=0.17/0.01/0/0.48, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtps/smtpd[999429]: A4B0918029CB: client=unknown[49.205.120.228], sasl_method=LOGIN, sasl_username=rajesh.kumar@unified.co.in
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022008]: A4B0918029CB: warning: header Subject: RE: RFQ from unknown[49.205.120.228]; from=<rajesh.kumar@unified.co.in> to=<noel@univatech.com> proto=ESMTP helo=<rajesh>
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022008]: A4B0918029CB: message-id=<029601da6bcb$15b186e0$411494a0$@unified.co.in>
+2024-03-01T16:54:54+05:30 dsmx01 opendkim[3840330]: A4B0918029CB: DKIM-Signature field added (s=mail, d=unified.co.in)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/qmgr[796039]: A4B0918029CB: from=<rajesh.kumar@unified.co.in>, size=24087, nrcpt=5 (queue active)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtpd[1037917]: connect from out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022008]: A4B0918029CB: warning: header Subject: RE: RFQ from unknown[49.205.120.228]; from=<rajesh.kumar@unified.co.in> to=<noel@univatech.com> proto=ESMTP helo=<rajesh>
+2024-03-01T16:54:54+05:30 dsmx01 postfix/cleanup[1022008]: A4B0918029CB: message-id=<029601da6bcb$15b186e0$411494a0$@unified.co.in>
+2024-03-01T16:54:54+05:30 dsmx01 opendkim[3840330]: A4B0918029CB: DKIM-Signature field added (s=mail, d=unified.co.in)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/qmgr[796039]: A4B0918029CB: from=<rajesh.kumar@unified.co.in>, size=24087, nrcpt=5 (queue active)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1011122]: E5C9218029C2: to=<mailarchive+finance+transcaal.com@transcaal.com>, relay=dovecot, delay=0.97, delays=0.17/0.01/0/0.79, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1011095]: E5C9218029C2: to=<mailarchive+creditservice+transcaal.com@transcaal.com>, relay=dovecot, delay=0.98, delays=0.17/0.01/0/0.8, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1016541]: E5C9218029C2: to=<mailarchive+onsitebilling+transcaal.com@transcaal.com>, relay=dovecot, delay=1.1, delays=0.17/0.01/0/0.92, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/smtpd[1037917]: connect from out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1011122]: E5C9218029C2: to=<mailarchive+finance+transcaal.com@transcaal.com>, relay=dovecot, delay=0.97, delays=0.17/0.01/0/0.79, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:54+05:30 dsmx01 postfix/pipe[1011095]: E5C9218029C2: to=<mailarchive+creditservice+transcaal.com@transcaal.com>, relay=dovecot, delay=0.98, delays=0.17/0.01/0/0.8, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1016541]: E5C9218029C2: to=<mailarchive+onsitebilling+transcaal.com@transcaal.com>, relay=dovecot, delay=1.1, delays=0.17/0.01/0/0.92, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtp[1030103]: 0166018028E1: to=<jayaraj.sudhakaran@nestgroup.net>, relay=95.217.110.90[95.217.110.90]:25, delay=2.1, delays=0.23/0.01/1.1/0.76, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6E049422124)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/qmgr[796039]: 0166018028E1: removed
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtpd[1038548]: 3046318028E1: client=out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/cleanup[1022098]: 3046318028E1: message-id=<CAFkB-ksg5qvWNy_En7eOwqyehJv7a3oWGG4ReUb0nP9UittB+A@mail.gmail.com>
+2024-03-01T16:54:55+05:30 dsmx01 postfix/cleanup[1022098]: 3046318028E1: warning: header Subject: STAFF PERFOMANCE DATA from out8.antispamcloud.com[46.165.223.16]; from=<rare.palladium@shiveralifestyle.com> to=<rajesh.p@rarerabbit.in> proto=ESMTP helo=<out8.antispamcloud.com>
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtp[1030103]: 0166018028E1: to=<jayaraj.sudhakaran@nestgroup.net>, relay=95.217.110.90[95.217.110.90]:25, delay=2.1, delays=0.23/0.01/1.1/0.76, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 6E049422124)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/qmgr[796039]: 0166018028E1: removed
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtpd[1038548]: 3046318028E1: client=out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:54:55+05:30 dsmx01 postfix/cleanup[1022098]: 3046318028E1: message-id=<CAFkB-ksg5qvWNy_En7eOwqyehJv7a3oWGG4ReUb0nP9UittB+A@mail.gmail.com>
+2024-03-01T16:54:55+05:30 dsmx01 postfix/cleanup[1022098]: 3046318028E1: warning: header Subject: STAFF PERFOMANCE DATA from out8.antispamcloud.com[46.165.223.16]; from=<rare.palladium@shiveralifestyle.com> to=<rajesh.p@rarerabbit.in> proto=ESMTP helo=<out8.antispamcloud.com>
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1016511]: A4B0918029CB: to=<mailarchive+rajesh.kumar+unified.co.in@unified.co.in>, relay=dovecot, delay=0.74, delays=0.2/0.01/0/0.52, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1016515]: A4B0918029CB: to=<mailarchive+hyd.cs+unified.co.in@unified.co.in>, relay=dovecot, delay=0.74, delays=0.2/0.01/0/0.53, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1015864]: A4B0918029CB: to=<hyd.cs@unified.co.in>, relay=dovecot, delay=0.75, delays=0.2/0.01/0/0.53, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1016511]: A4B0918029CB: to=<mailarchive+rajesh.kumar+unified.co.in@unified.co.in>, relay=dovecot, delay=0.74, delays=0.2/0.01/0/0.52, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1016515]: A4B0918029CB: to=<mailarchive+hyd.cs+unified.co.in@unified.co.in>, relay=dovecot, delay=0.74, delays=0.2/0.01/0/0.53, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/pipe[1015864]: A4B0918029CB: to=<hyd.cs@unified.co.in>, relay=dovecot, delay=0.75, delays=0.2/0.01/0/0.53, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtps/smtpd[991722]: connect from unknown[49.15.183.50]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtps/smtpd[991722]: TLS SNI imail.prayasfinance.com from unknown[49.15.183.50] not matched, using default chain
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtps/smtpd[991722]: connect from unknown[49.15.183.50]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[106.51.126.87] ehlo=2 starttls=1 auth=1 mail=1 rcpt=4 data=1 quit=1 commands=11
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtpd[1037912]: connect from out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtps/smtpd[991722]: TLS SNI imail.prayasfinance.com from unknown[49.15.183.50] not matched, using default chain
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[106.51.126.87] ehlo=2 starttls=1 auth=1 mail=1 rcpt=4 data=1 quit=1 commands=11
+2024-03-01T16:54:55+05:30 dsmx01 postfix/smtpd[1037912]: connect from out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:54:55+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtp[1007363]: E5C9218029C2: to=<projects@transcal.in>, relay=95.217.110.90[95.217.110.90]:25, delay=2.2, delays=0.17/0.01/1.1/0.87, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 4FF8042234C)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: E5C9218029C2: removed
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtp[1007363]: E5C9218029C2: to=<projects@transcal.in>, relay=95.217.110.90[95.217.110.90]:25, delay=2.2, delays=0.17/0.01/1.1/0.87, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 4FF8042234C)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: E5C9218029C2: removed
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1037917]: warning: table "ldap:/etc/postfix/ldap/forward.cf": empty lookup result for: "pulkit@rarerabbit.in" -- ignored
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1037917]: 4B12D18029C2: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:56+05:30 dsmx01 postfix/cleanup[1022085]: warning: table "ldap:/etc/postfix/ldap/forward.cf": empty lookup result for: "pulkit@rarerabbit.in" -- ignored
+2024-03-01T16:54:56+05:30 dsmx01 postfix/cleanup[1022085]: 4B12D18029C2: message-id=<65e1baffc9933_1d53f9270ae01682834b.sidekiq-realtime-fd-podapsouth1-main-blue-d984f86bd-htklv@automation.freshdesk.com>
+2024-03-01T16:54:56+05:30 dsmx01 postfix/cleanup[1022085]: 4B12D18029C2: warning: header Subject: Request Received - [#6503517] / PPMP / Raise SPF Claim / Wrong? Returns-Received other seller's product from out7.antispamcloud.com[94.75.244.176]; from=<bounces+mum.1.2601349.6503517-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com> to=<pulkit@rarerabbit.in> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: not authenticated
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: DKIM verification successful
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: s=fdindmail d=freshdesk.com a=rsa-sha256 SSL
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1037917]: warning: table "ldap:/etc/postfix/ldap/forward.cf": empty lookup result for: "pulkit@rarerabbit.in" -- ignored
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1037917]: 4B12D18029C2: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:56+05:30 dsmx01 postfix/cleanup[1022085]: warning: table "ldap:/etc/postfix/ldap/forward.cf": empty lookup result for: "pulkit@rarerabbit.in" -- ignored
+2024-03-01T16:54:56+05:30 dsmx01 postfix/cleanup[1022085]: 4B12D18029C2: message-id=<65e1baffc9933_1d53f9270ae01682834b.sidekiq-realtime-fd-podapsouth1-main-blue-d984f86bd-htklv@automation.freshdesk.com>
+2024-03-01T16:54:56+05:30 dsmx01 postfix/cleanup[1022085]: 4B12D18029C2: warning: header Subject: Request Received - [#6503517] / PPMP / Raise SPF Claim / Wrong? Returns-Received other seller's product from out7.antispamcloud.com[94.75.244.176]; from=<bounces+mum.1.2601349.6503517-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com> to=<pulkit@rarerabbit.in> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: not authenticated
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: 4B12D18029C2: from=<bounces+mum.1.2601349.6503517-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com>, size=7218, nrcpt=2 (queue active)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtps/smtpd[991722]: disconnect from unknown[49.15.183.50] ehlo=1 quit=1 commands=2
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: DKIM verification successful
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 4B12D18029C2: s=fdindmail d=freshdesk.com a=rsa-sha256 SSL
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: 4B12D18029C2: from=<bounces+mum.1.2601349.6503517-support=myntrasellersupport.freshdesk.com@emailind.freshdesk.com>, size=7218, nrcpt=2 (queue active)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtps/smtpd[991722]: disconnect from unknown[49.15.183.50] ehlo=1 quit=1 commands=2
+2024-03-01T16:54:56+05:30 dsmx01 postfix/pipe[1016467]: 4B12D18029C2: to=<pulkit@rarerabbit.in>, relay=dovecot, delay=0.28, delays=0.14/0/0/0.14, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: out8.antispamcloud.com [46.165.223.16] not internal
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: not authenticated
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: DKIM verification successful
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: s=20230601 d=shiveralifestyle-com.20230601.gappssmtp.com a=rsa-sha256 SSL
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtp[1006924]: A4B0918029CB: to=<mandy@univatech.com>, relay=95.217.110.90[95.217.110.90]:25, delay=1.9, delays=0.2/0.01/1.1/0.55, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 14547423A0F)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtp[1006924]: A4B0918029CB: to=<noel@univatech.com>, relay=95.217.110.90[95.217.110.90]:25, delay=1.9, delays=0.2/0.01/1.1/0.55, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 14547423A0F)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: A4B0918029CB: removed
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: 3046318028E1: from=<rare.palladium@shiveralifestyle.com>, size=779679, nrcpt=2 (queue active)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtps/smtpd[998806]: disconnect from unknown[106.51.170.190] ehlo=1 auth=1 mail=1 rcpt=3 data=1 quit=1 commands=8
+2024-03-01T16:54:56+05:30 dsmx01 postfix/pipe[1016467]: 4B12D18029C2: to=<pulkit@rarerabbit.in>, relay=dovecot, delay=0.28, delays=0.14/0/0/0.14, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: out8.antispamcloud.com [46.165.223.16] not internal
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: not authenticated
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: DKIM verification successful
+2024-03-01T16:54:56+05:30 dsmx01 opendkim[3840330]: 3046318028E1: s=20230601 d=shiveralifestyle-com.20230601.gappssmtp.com a=rsa-sha256 SSL
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtp[1006924]: A4B0918029CB: to=<mandy@univatech.com>, relay=95.217.110.90[95.217.110.90]:25, delay=1.9, delays=0.2/0.01/1.1/0.55, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 14547423A0F)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtp[1006924]: A4B0918029CB: to=<noel@univatech.com>, relay=95.217.110.90[95.217.110.90]:25, delay=1.9, delays=0.2/0.01/1.1/0.55, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 14547423A0F)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: A4B0918029CB: removed
+2024-03-01T16:54:56+05:30 dsmx01 postfix/qmgr[796039]: 3046318028E1: from=<rare.palladium@shiveralifestyle.com>, size=779679, nrcpt=2 (queue active)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtps/smtpd[998806]: disconnect from unknown[106.51.170.190] ehlo=1 auth=1 mail=1 rcpt=3 data=1 quit=1 commands=8
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1037917]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+2024-03-01T16:54:56+05:30 dsmx01 postfix/pipe[1016547]: 3046318028E1: to=<rajesh.p@rarerabbit.in>, relay=dovecot, delay=1.6, delays=1.4/0/0/0.14, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1037917]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+2024-03-01T16:54:56+05:30 dsmx01 postfix/pipe[1016547]: 3046318028E1: to=<rajesh.p@rarerabbit.in>, relay=dovecot, delay=1.6, delays=1.4/0/0/0.14, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1038548]: disconnect from out8.antispamcloud.com[46.165.223.16] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:54:56+05:30 dsmx01 postfix/smtpd[1038548]: disconnect from out8.antispamcloud.com[46.165.223.16] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1037912]: 228A018029CB: client=out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1037912]: 228A018029CB: client=out8.antispamcloud.com[46.165.223.16]
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022089]: 228A018029CB: message-id=<0109018df9c273dd-fcc963a0-fca7-41e0-acb5-f21047f3aac8-000000@ap-south-1.amazonses.com>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022089]: 228A018029CB: warning: header Subject: Invitation to eSign Loan Agreement-10460803 sent to PARMAR REKHABEN from out8.antispamcloud.com[46.165.223.16]; from=<0109018df9c273dd-fcc963a0-fca7-41e0-acb5-f21047f3aac8-000000@email.leegality.com> to=<godhra.rural@prayasfinance.com> proto=ESMTP helo=<out8.antispamcloud.com>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022089]: 228A018029CB: message-id=<0109018df9c273dd-fcc963a0-fca7-41e0-acb5-f21047f3aac8-000000@ap-south-1.amazonses.com>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022089]: 228A018029CB: warning: header Subject: Invitation to eSign Loan Agreement-10460803 sent to PARMAR REKHABEN from out8.antispamcloud.com[46.165.223.16]; from=<0109018df9c273dd-fcc963a0-fca7-41e0-acb5-f21047f3aac8-000000@email.leegality.com> to=<godhra.rural@prayasfinance.com> proto=ESMTP helo=<out8.antispamcloud.com>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtps/smtpd[999429]: disconnect from unknown[49.205.120.228] ehlo=1 auth=1 mail=1 rcpt=3 data=1 quit=1 commands=8
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtps/smtpd[999429]: disconnect from unknown[49.205.120.228] ehlo=1 auth=1 mail=1 rcpt=3 data=1 quit=1 commands=8
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: warning: hostname mail.bmrc.co.in does not resolve to address 106.51.122.122: Name or service not known
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: connect from unknown[106.51.122.122]
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: out8.antispamcloud.com [46.165.223.16] not internal
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: not authenticated
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: message has signatures from leegality.com, amazonses.com
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: DKIM verification successful
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: s=5zfruynntjz2ki4a6se3zilijuvet5k5 d=leegality.com a=rsa-sha256 SSL
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: 85A6F18029F0: client=unknown[106.51.122.122]
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022086]: 85A6F18029F0: warning: header Subject: Leave Application from unknown[106.51.122.122]; from=<facebiometricevents@bmrc.co.in> to=<praghurama@gmail.com> proto=ESMTP helo=<mail.bmrc.co.in>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022086]: 85A6F18029F0: message-id=<>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/qmgr[796039]: 228A018029CB: from=<0109018df9c273dd-fcc963a0-fca7-41e0-acb5-f21047f3aac8-000000@email.leegality.com>, size=14252, nrcpt=2 (queue active)
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 85A6F18029F0: [106.51.122.122] [106.51.122.122] not internal
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 85A6F18029F0: not authenticated
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 85A6F18029F0: no signature data
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: disconnect from unknown[106.51.122.122] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+2024-03-01T16:54:57+05:30 dsmx01 postfix/qmgr[796039]: 85A6F18029F0: from=<facebiometricevents@bmrc.co.in>, size=3585, nrcpt=1 (queue active)
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: warning: hostname mail.bmrc.co.in does not resolve to address 106.51.122.122: Name or service not known
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: connect from unknown[106.51.122.122]
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: out8.antispamcloud.com [46.165.223.16] not internal
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: not authenticated
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: message has signatures from leegality.com, amazonses.com
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: DKIM verification successful
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 228A018029CB: s=5zfruynntjz2ki4a6se3zilijuvet5k5 d=leegality.com a=rsa-sha256 SSL
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: 85A6F18029F0: client=unknown[106.51.122.122]
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022086]: 85A6F18029F0: warning: header Subject: Leave Application from unknown[106.51.122.122]; from=<facebiometricevents@bmrc.co.in> to=<praghurama@gmail.com> proto=ESMTP helo=<mail.bmrc.co.in>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/cleanup[1022086]: 85A6F18029F0: message-id=<>
+2024-03-01T16:54:57+05:30 dsmx01 postfix/qmgr[796039]: 228A018029CB: from=<0109018df9c273dd-fcc963a0-fca7-41e0-acb5-f21047f3aac8-000000@email.leegality.com>, size=14252, nrcpt=2 (queue active)
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 85A6F18029F0: [106.51.122.122] [106.51.122.122] not internal
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 85A6F18029F0: not authenticated
+2024-03-01T16:54:57+05:30 dsmx01 opendkim[3840330]: 85A6F18029F0: no signature data
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1038549]: disconnect from unknown[106.51.122.122] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+2024-03-01T16:54:57+05:30 dsmx01 postfix/qmgr[796039]: 85A6F18029F0: from=<facebiometricevents@bmrc.co.in>, size=3585, nrcpt=1 (queue active)
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1037912]: disconnect from out8.antispamcloud.com[46.165.223.16] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1037889]: connect from out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1037912]: disconnect from out8.antispamcloud.com[46.165.223.16] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtpd[1037889]: connect from out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtp[1006917]: 4B12D18029C2: to=<mailarchive+pulkit+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=1.6, delays=0.14/0/0.27/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 00F811873D7)
+2024-03-01T16:54:57+05:30 dsmx01 postfix/qmgr[796039]: 4B12D18029C2: removed
+2024-03-01T16:54:57+05:30 dsmx01 postfix/pipe[1016527]: 228A018029CB: to=<godhra.rural@prayasfinance.com>, relay=dovecot, delay=0.88, delays=0.58/0/0/0.29, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:57+05:30 dsmx01 postfix/smtp[1006917]: 4B12D18029C2: to=<mailarchive+pulkit+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=1.6, delays=0.14/0/0.27/1.2, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 00F811873D7)
+2024-03-01T16:54:57+05:30 dsmx01 postfix/qmgr[796039]: 4B12D18029C2: removed
+2024-03-01T16:54:57+05:30 dsmx01 postfix/pipe[1016527]: 228A018029CB: to=<godhra.rural@prayasfinance.com>, relay=dovecot, delay=0.88, delays=0.58/0/0/0.29, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:58+05:30 dsmx01 postfix/pipe[1016531]: 228A018029CB: to=<mailarchive+godhra.rural+prayasfinance.com@prayasfinance.com>, relay=dovecot, delay=1.2, delays=0.58/0/0/0.66, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:58+05:30 dsmx01 postfix/qmgr[796039]: 228A018029CB: removed
+2024-03-01T16:54:58+05:30 dsmx01 postfix/pipe[1016531]: 228A018029CB: to=<mailarchive+godhra.rural+prayasfinance.com@prayasfinance.com>, relay=dovecot, delay=1.2, delays=0.58/0/0/0.66, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:54:58+05:30 dsmx01 postfix/qmgr[796039]: 228A018029CB: removed
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[185.255.114.59]
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1018426 connect from unknown[185.255.114.59]
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:54:58+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtp[1035022]: 85A6F18029F0: to=<praghurama@gmail.com>, relay=65.109.173.246[65.109.173.246]:25, delay=1.6, delays=0.02/0/1.2/0.34, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as D28DF4AC61)
+2024-03-01T16:54:59+05:30 dsmx01 postfix/qmgr[796039]: 85A6F18029F0: removed
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtp[1035022]: 85A6F18029F0: to=<praghurama@gmail.com>, relay=65.109.173.246[65.109.173.246]:25, delay=1.6, delays=0.02/0/1.2/0.34, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as D28DF4AC61)
+2024-03-01T16:54:59+05:30 dsmx01 postfix/qmgr[796039]: 85A6F18029F0: removed
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtpd[1037889]: 1BBD318029C2: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:59+05:30 dsmx01 postfix/cleanup[1022088]: 1BBD318029C2: warning: header Subject: Beware of fake Government Scheme scams from out7.antispamcloud.com[94.75.244.176]; from=<campaign-canarabank-75472-354-3407839-rao=techser.com@env.canarabank.com> to=<rao@techser.com> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:59+05:30 dsmx01 postfix/cleanup[1022088]: 1BBD318029C2: message-id=<36236382043407839@env.canarabank.com>
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtpd[1037889]: 1BBD318029C2: client=out7.antispamcloud.com[94.75.244.176]
+2024-03-01T16:54:59+05:30 dsmx01 postfix/cleanup[1022088]: 1BBD318029C2: warning: header Subject: Beware of fake Government Scheme scams from out7.antispamcloud.com[94.75.244.176]; from=<campaign-canarabank-75472-354-3407839-rao=techser.com@env.canarabank.com> to=<rao@techser.com> proto=ESMTP helo=<out7.antispamcloud.com>
+2024-03-01T16:54:59+05:30 dsmx01 postfix/cleanup[1022088]: 1BBD318029C2: message-id=<36236382043407839@env.canarabank.com>
+2024-03-01T16:54:59.395444+05:30 demo postfix/smtpd[589009]: warning: unknown[45.129.14.179]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:54:59+05:30 dsmx01 postfix/submission/smtpd[1018426 lost connection after EHLO from unknown[185.255.114.59]
+2024-03-01T16:54:59+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[185.255.114.59] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:54:59.432498+05:30 demo postfix/smtpd[589009]: disconnect from unknown[45.129.14.179] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2024-03-01T16:54:59+05:30 dsmx01 postfix/submission/smtpd[1018426 lost connection after EHLO from unknown[185.255.114.59]
+2024-03-01T16:54:59+05:30 dsmx01 postfix/submission/smtpd[1018426 disconnect from unknown[185.255.114.59] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:54:59+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:59+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: not authenticated
+2024-03-01T16:54:59+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: out7.antispamcloud.com [94.75.244.176] not internal
+2024-03-01T16:54:59+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: not authenticated
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtp[1020073]: 3046318028E1: to=<mailarchive+rajesh.p+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=4.5, delays=1.4/0/0.31/2.8, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3E62718740A)
+2024-03-01T16:54:59+05:30 dsmx01 postfix/qmgr[796039]: 3046318028E1: removed
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtp[1020073]: 3046318028E1: to=<mailarchive+rajesh.p+rarerabbit.in@rarerabbit.in>, relay=136.232.196.250[136.232.196.250]:25, delay=4.5, delays=1.4/0/0.31/2.8, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3E62718740A)
+2024-03-01T16:54:59+05:30 dsmx01 postfix/qmgr[796039]: 3046318028E1: removed
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtpd[1038552]: connect from out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:54:59+05:30 dsmx01 postfix/smtpd[1038552]: connect from out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: message has signatures from canarabank.com, env.canarabank.com
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: DKIM verification successful
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: s=canara d=canarabank.com a=rsa-sha256 SSL
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: message has signatures from canarabank.com, env.canarabank.com
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: DKIM verification successful
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1BBD318029C2: s=canara d=canarabank.com a=rsa-sha256 SSL
+2024-03-01T16:55:00+05:30 dsmx01 postfix/qmgr[796039]: 1BBD318029C2: from=<campaign-canarabank-75472-354-3407839-rao=techser.com@env.canarabank.com>, size=11009, nrcpt=2 (queue active)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/qmgr[796039]: 1BBD318029C2: from=<campaign-canarabank-75472-354-3407839-rao=techser.com@env.canarabank.com>, size=11009, nrcpt=2 (queue active)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/smtpd[1037889]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1C4DE18024B3: DKIM-Signature field added (s=mail, d=techser.com)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/smtpd[1037889]: disconnect from out7.antispamcloud.com[94.75.244.176] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:55:00+05:30 dsmx01 opendkim[3840330]: 1C4DE18024B3: DKIM-Signature field added (s=mail, d=techser.com)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/qmgr[796039]: 1C4DE18024B3: from=<gopala@techser.com>, size=27157699, nrcpt=3 (queue active)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/pipe[1011098]: 1BBD318029C2: to=<rao@techser.com>, relay=dovecot, delay=1.5, delays=1.2/0/0/0.34, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/qmgr[796039]: 1C4DE18024B3: from=<gopala@techser.com>, size=27157699, nrcpt=3 (queue active)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/pipe[1011098]: 1BBD318029C2: to=<rao@techser.com>, relay=dovecot, delay=1.5, delays=1.2/0/0/0.34, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/pipe[1013720]: 1BBD318029C2: to=<mailarchive+rao+techser.com@techser.com>, relay=dovecot, delay=1.9, delays=1.2/0/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/qmgr[796039]: 1BBD318029C2: removed
+2024-03-01T16:55:00+05:30 dsmx01 postfix/pipe[1013720]: 1BBD318029C2: to=<mailarchive+rao+techser.com@techser.com>, relay=dovecot, delay=1.9, delays=1.2/0/0/0.7, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:00+05:30 dsmx01 postfix/qmgr[796039]: 1BBD318029C2: removed
+2024-03-01T16:55:01+05:30 dsmx01 postfix/pipe[1013718]: 1C4DE18024B3: to=<chennai@techser.com>, relay=dovecot, delay=23, delays=22/0.01/0/0.6, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:01+05:30 dsmx01 postfix/pipe[1013718]: 1C4DE18024B3: to=<chennai@techser.com>, relay=dovecot, delay=23, delays=22/0.01/0/0.6, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtps/smtpd[991734]: warning: ip163.ip-141-94-146.eu[141.94.146.163]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 warning: unknown[1.23.144.194]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtps/smtpd[991734]: warning: ip163.ip-141-94-146.eu[141.94.146.163]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 lost connection after AUTH from unknown[1.23.144.194]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 disconnect from unknown[1.23.144.194] ehlo=2 starttls=1 auth=0/1 commands=3/4
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtps/smtpd[991734]: lost connection after AUTH from ip163.ip-141-94-146.eu[141.94.146.163]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtps/smtpd[991734]: disconnect from ip163.ip-141-94-146.eu[141.94.146.163] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtps/smtpd[991734]: lost connection after AUTH from ip163.ip-141-94-146.eu[141.94.146.163]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtps/smtpd[991734]: disconnect from ip163.ip-141-94-146.eu[141.94.146.163] ehlo=1 auth=0/1 commands=1/2
+2024-03-01T16:55:01+05:30 dsmx01 postfix/pipe[1015743]: 1C4DE18024B3: to=<mailarchive+gopala+techser.com@techser.com>, relay=dovecot, delay=23, delays=22/0.01/0/0.99, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:01+05:30 dsmx01 postfix/pipe[1016557]: 1C4DE18024B3: to=<mailarchive+chennai+techser.com@techser.com>, relay=dovecot, delay=24, delays=22/0.01/0/1, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:01+05:30 dsmx01 postfix/qmgr[796039]: 1C4DE18024B3: removed
+2024-03-01T16:55:01+05:30 dsmx01 postfix/pipe[1015743]: 1C4DE18024B3: to=<mailarchive+gopala+techser.com@techser.com>, relay=dovecot, delay=23, delays=22/0.01/0/0.99, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:01+05:30 dsmx01 postfix/pipe[1016557]: 1C4DE18024B3: to=<mailarchive+chennai+techser.com@techser.com>, relay=dovecot, delay=24, delays=22/0.01/0/1, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:01+05:30 dsmx01 postfix/qmgr[796039]: 1C4DE18024B3: removed
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 connect from unknown[1.23.144.194]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtpd[1038552]: DF4DB18024B3: client=out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/cleanup[1022091]: DF4DB18024B3: message-id=<0109018df9c2876d-cee5a842-bdd9-4924-aa9e-f8a07d486f7f-000000@ap-south-1.amazonses.com>
+2024-03-01T16:55:01+05:30 dsmx01 postfix/cleanup[1022091]: DF4DB18024B3: warning: header Subject: Abhijit Verma has eSigned 101339_Appointment.pdf from out9.antispamcloud.com[199.115.117.7]; from=<0109018df9c2876d-cee5a842-bdd9-4924-aa9e-f8a07d486f7f-000000@email.leegality.com> to=<hrd@prayasfinance.com> proto=ESMTP helo=<out9.antispamcloud.com>
+2024-03-01T16:55:01+05:30 dsmx01 postfix/submission/smtpd[1027227 TLS SNI mail.promaninfi.com from unknown[1.23.144.194] not matched, using default chain
+2024-03-01T16:55:01+05:30 dsmx01 postfix/smtpd[1038552]: DF4DB18024B3: client=out9.antispamcloud.com[199.115.117.7]
+2024-03-01T16:55:01+05:30 dsmx01 postfix/cleanup[1022091]: DF4DB18024B3: message-id=<0109018df9c2876d-cee5a842-bdd9-4924-aa9e-f8a07d486f7f-000000@ap-south-1.amazonses.com>
+2024-03-01T16:55:01+05:30 dsmx01 postfix/cleanup[1022091]: DF4DB18024B3: warning: header Subject: Abhijit Verma has eSigned 101339_Appointment.pdf from out9.antispamcloud.com[199.115.117.7]; from=<0109018df9c2876d-cee5a842-bdd9-4924-aa9e-f8a07d486f7f-000000@email.leegality.com> to=<hrd@prayasfinance.com> proto=ESMTP helo=<out9.antispamcloud.com>
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: warning: hostname mail.bmrc.co.in does not resolve to address 106.51.122.122: Name or service not known
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: connect from unknown[106.51.122.122]
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: warning: hostname mail.bmrc.co.in does not resolve to address 106.51.122.122: Name or service not known
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: connect from unknown[106.51.122.122]
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: out9.antispamcloud.com [199.115.117.7] not internal
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: not authenticated
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: message has signatures from leegality.com, amazonses.com
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: DKIM verification successful
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: s=5zfruynntjz2ki4a6se3zilijuvet5k5 d=leegality.com a=rsa-sha256 SSL
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtps/smtpd[958774]: disconnect from unknown[122.176.72.241] ehlo=1 auth=1 mail=1 rcpt=3 data=1 commands=7
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: 775CB18028E1: client=unknown[106.51.122.122]
+2024-03-01T16:55:02+05:30 dsmx01 postfix/qmgr[796039]: DF4DB18024B3: from=<0109018df9c2876d-cee5a842-bdd9-4924-aa9e-f8a07d486f7f-000000@email.leegality.com>, size=9735, nrcpt=2 (queue active)
+2024-03-01T16:55:02+05:30 dsmx01 postfix/cleanup[1022094]: 775CB18028E1: warning: header Subject: Transaction Receipt from unknown[106.51.122.122]; from=<noreply@bmrcl.in> to=<kishordeepum@gmail.com> proto=ESMTP helo=<mail.bmrc.co.in>
+2024-03-01T16:55:02+05:30 dsmx01 postfix/cleanup[1022094]: 775CB18028E1: message-id=<>
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: 775CB18028E1: [106.51.122.122] [106.51.122.122] not internal
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: 775CB18028E1: not authenticated
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: 775CB18028E1: no signature data
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: disconnect from unknown[106.51.122.122] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+2024-03-01T16:55:02+05:30 dsmx01 postfix/qmgr[796039]: 775CB18028E1: from=<noreply@bmrcl.in>, size=4601, nrcpt=1 (queue active)
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: out9.antispamcloud.com [199.115.117.7] not internal
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: not authenticated
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: message has signatures from leegality.com, amazonses.com
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: DKIM verification successful
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: DF4DB18024B3: s=5zfruynntjz2ki4a6se3zilijuvet5k5 d=leegality.com a=rsa-sha256 SSL
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtps/smtpd[958774]: disconnect from unknown[122.176.72.241] ehlo=1 auth=1 mail=1 rcpt=3 data=1 commands=7
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: 775CB18028E1: client=unknown[106.51.122.122]
+2024-03-01T16:55:02+05:30 dsmx01 postfix/qmgr[796039]: DF4DB18024B3: from=<0109018df9c2876d-cee5a842-bdd9-4924-aa9e-f8a07d486f7f-000000@email.leegality.com>, size=9735, nrcpt=2 (queue active)
+2024-03-01T16:55:02+05:30 dsmx01 postfix/cleanup[1022094]: 775CB18028E1: warning: header Subject: Transaction Receipt from unknown[106.51.122.122]; from=<noreply@bmrcl.in> to=<kishordeepum@gmail.com> proto=ESMTP helo=<mail.bmrc.co.in>
+2024-03-01T16:55:02+05:30 dsmx01 postfix/cleanup[1022094]: 775CB18028E1: message-id=<>
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: 775CB18028E1: [106.51.122.122] [106.51.122.122] not internal
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: 775CB18028E1: not authenticated
+2024-03-01T16:55:02+05:30 dsmx01 opendkim[3840330]: 775CB18028E1: no signature data
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1037913]: disconnect from unknown[106.51.122.122] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+2024-03-01T16:55:02+05:30 dsmx01 postfix/qmgr[796039]: 775CB18028E1: from=<noreply@bmrcl.in>, size=4601, nrcpt=1 (queue active)
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1038552]: disconnect from out9.antispamcloud.com[199.115.117.7] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:55:02+05:30 dsmx01 postfix/pipe[1015749]: DF4DB18024B3: to=<hrd@prayasfinance.com>, relay=dovecot, delay=1.1, delays=0.69/0/0/0.38, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:02+05:30 dsmx01 postfix/smtpd[1038552]: disconnect from out9.antispamcloud.com[199.115.117.7] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+2024-03-01T16:55:02+05:30 dsmx01 postfix/pipe[1015749]: DF4DB18024B3: to=<hrd@prayasfinance.com>, relay=dovecot, delay=1.1, delays=0.69/0/0/0.38, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:03+05:30 dsmx01 postfix/submission/smtpd[1041622 warning: database /etc/postfix/vmail_ssl.map.db is older than source file /etc/postfix/vmail_ssl.map
+2024-03-01T16:55:03+05:30 dsmx01 postfix/submission/smtpd[1041622 warning: database /etc/postfix/vmail_ssl.map.db is older than source file /etc/postfix/vmail_ssl.map
+2024-03-01T16:55:03+05:30 dsmx01 postfix/pipe[1016473]: DF4DB18024B3: to=<mailarchive+hrd+prayasfinance.com@prayasfinance.com>, relay=dovecot, delay=1.5, delays=0.69/0/0/0.77, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:03+05:30 dsmx01 postfix/qmgr[796039]: DF4DB18024B3: removed
+2024-03-01T16:55:03+05:30 dsmx01 postfix/pipe[1016473]: DF4DB18024B3: to=<mailarchive+hrd+prayasfinance.com@prayasfinance.com>, relay=dovecot, delay=1.5, delays=0.69/0/0/0.77, dsn=2.0.0, status=sent (delivered via dovecot service)
+2024-03-01T16:55:03+05:30 dsmx01 postfix/smtpd[1037894]: connect from out8.antispamcloud.com[46.165.223.16]
