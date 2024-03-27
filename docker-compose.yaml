@@ -64,8 +64,8 @@ services:
     restart: unless-stopped
     volumes:
       - "./fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf"
-        #- "./fluentbit/data.log:/var/log/mail.log"
-      - "/var/log/mail.log:/var/log/mail.log"
+      #- "./fluentbit/data.log:/var/log/mail.log"
+      - "/var/log/dsmx01/postfix.log:/var/log/dsmx01/postfix.log"
       - "./fluentbit/myparsers.conf:/fluent-bit/etc/myparsers.conf"
       - "./fluentbit/stream.conf:/fluent-bit/etc/streams.conf"
     ports:
