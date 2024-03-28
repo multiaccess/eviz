@@ -19,18 +19,25 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
     Install Docker
     Install Docker Compose
 2. Clone this repository to your local machine:
-        git clone <repository_url>
+```
+   git clone <repository_url>
+```
    Navigate to the project directory:
+```
         cd <project_directory>
-3. Customize Variables (if needed):
+```
+4. Customize Variables (if needed):
       If your application requires any environment variables, you can customize them in the .config file. Make sure to set appropriate values for your environment.
-4. Start the Application:
+5. Start the Application:
      Run the following command to start the application using Docker Compose:
+```
         docker-compose up -d
-5. Stopping the Application:
+```
+7. Stopping the Application:
       To stop the application and remove the containers, you can press Ctrl + C in the terminal where docker-compose up is running. Alternatively, you can run:
-        docker-compose down
-
+```
+    docker-compose down
+```
 ## Documentation
 For detailed documentation, including installation instructions, configuration options, and usage guides, refer to the [Eviz documentation](https://docs.eviz.io/).
 
