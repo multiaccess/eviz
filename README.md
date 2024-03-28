@@ -20,11 +20,11 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
     - Install Docker Compose
 2. Clone this repository to your local machine:
 ```
-   git clone <repository_url>
+   git clone https://github.com/jadcloudtech/eviz.git
 ```
    Navigate to the project directory:
 ```
-    cd <project_directory>
+    cd eviz
 ```
 4. Customize Variables (if needed):
       If your application requires any environment variables, you can customize them in the .config file. Make sure to set appropriate values for your environment.
