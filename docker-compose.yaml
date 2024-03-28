@@ -41,10 +41,7 @@ services:
 
   grafana:
     container_name: grafana
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    entrypoint: /run.sh
+    image: ghcr.io/jadcloudtech/eviz:v1.0.5
     restart: unless-stopped
     environment:
       - GF_SECURITY_ADMIN_USER=admin
