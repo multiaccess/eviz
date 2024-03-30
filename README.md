@@ -31,6 +31,8 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
 5. Start the Application:
      Run the following command to start the application using Docker Compose:
 ```
+    mkdir /data    #loki data location
+    chmod -R 777 /data
     docker-compose up -d
 ```
 7. Stopping the Application:
