@@ -53,7 +53,7 @@ services:
       - 3002 
     volumes:
       - "grafana_storage:/var/lib/grafana"
-        #- "./data/grafana:/var/lib/grafana"
+      - "./grafana.ini:/usr/share/grafana/conf/defaults.ini"
  
 
   fluent-bit:
