@@ -54,6 +54,7 @@ services:
     volumes:
       - "grafana_storage:/var/lib/grafana"
       - "./grafana.ini:/usr/share/grafana/conf/defaults.ini"
+      #- "./dashboard:/var/lib/grafana/dashboard
  
 
   fluent-bit:
