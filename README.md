@@ -1,3 +1,24 @@
+<p align="center"><b>Eviz:  Observability Stack for Email Servers, Linux, and Web Servers.</b></p>
+
+<h4 align="center">
+    <a href="https://github.com/multiaccess/eviz/discussions">Discussions</a> 
+</h4>
+
+<h4 align="center">
+
+[![Docker Image CI](https://github.com/multiaccess/eviz/actions/workflows/container-release.yaml/badge.svg)](https://github.com/multiaccess/eviz/actions/workflows/container-release.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/multiaccess/eviz)](https://goreportcard.com/report/github.com/multiaccess/eviz)
+
+
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/multiaccess/eviz/blob/main/LICENSE)
+[![Discussions](https://badgen.net/badge/icon/discussions?label=open)](https://github.com/multiaccess/eviz/discussions)
+[![Code of Conduct](https://badgen.net/badge/icon/code-of-conduct?label=open)](./code-of-conduct.md)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+</h4>
+
+<hr>
+
 # Eviz: Observability Stack for Email Servers, Linux, and Web Servers
 
 ## Overview
