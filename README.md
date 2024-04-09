@@ -19,7 +19,6 @@
 
 <hr>
 
-# Eviz: Observability Stack for Email Servers, Linux, and Web Servers
 
 ## Overview
 Eviz is an observability stack tailored for monitoring email servers, Linux systems, and web servers. It provides powerful tools for collecting, visualizing, and analyzing metrics and logs, enabling administrators to gain insights into the performance, health, and security of their infrastructure.
