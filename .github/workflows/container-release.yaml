@@ -1,4 +1,4 @@
-name: Grafana container image release
+name: eviz release
 on:
   push:
     tags:
