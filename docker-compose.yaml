@@ -71,6 +71,14 @@ services:
       - "2021:2021"
     expose:
       - 2021
+    deploy:
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 500M
+
 
   loki:
      image: grafana/loki:2.9.4
