@@ -1,0 +1,9 @@
+apiVersion: 1
+
+providers:
+  - name: Default # A uniquely identifiable name for the provider
+    type: file
+    folder: 'Eviz'
+    folderUid: '5432156789'
+    options:
+      path: /etc/grafana/provisioning/dashboards
