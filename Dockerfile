@@ -35,7 +35,7 @@ COPY img/logo.svg /usr/share/grafana/public/img/grafana_icon.svg
 RUN find /usr/share/grafana/public/build/ -name *.js -exec sed -i 's|AppTitle="Grafana"|AppTitle="JAD"|g' {} \;
 
 ## Update Login Title
-RUN find /usr/share/grafana/public/build/ -name *.js -exec sed -i 's|LoginTitle="Welcome to Grafana"|LoginTitle="Welcome to JAD-eviz"|g' {} \;
+RUN find /usr/share/grafana/public/build/ -name *.js -exec sed -i 's|LoginTitle="Welcome to Grafana"|LoginTitle="Welcome to eviz"|g' {} \;
 
 USER grafana
 
