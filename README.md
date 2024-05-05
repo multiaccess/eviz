@@ -53,6 +53,7 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
 ```
     mkdir /data    #loki data location
     chmod -R 777 /data
+    docker network create eviz-network
     docker-compose up -d
 ```
 7. Stopping the Application:
