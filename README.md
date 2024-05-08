@@ -62,17 +62,17 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
     docker-compose down
 ```
 ## Documentation
-For detailed documentation, including installation instructions, configuration options, and usage guides, refer to the [Eviz documentation](https://docs.eviz.io/).
+For detailed documentation, including installation instructions, configuration options, and usage guides, refer to the [Eviz documentation](https://docs.multiaccess.io/eviz).
 
 ## Support and Feedback
-For support or feedback, please contact our team at support@eviz.io or open an issue on [GitHub](https://github.com/eviz/eviz/issues).
+For support or feedback, please contact our team at support@multiaccess.io or open an issue on [GitHub](https://github.com/eviz/eviz/issues).
 
 ## License
 Eviz is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See the [LICENSE](LICENSE) file for more details.
 
 ## Contributions
 Eviz welcomes contributions from the community. To contribute, please follow these steps:
-- Fork the Eviz repository on [GitHub](https://github.com/jadcloudtech/eviz).
+- Fork the Eviz repository on [GitHub](https://github.com/multiaccess/eviz).
 - Create a new branch for your feature or bug fix.
 - Make your changes and commit them with clear and descriptive commit messages.
 - Push your changes to your fork.
