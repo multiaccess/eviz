@@ -38,19 +38,27 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
 1. Prerequisites
     - Install Docker
     - Install Docker Compose
+
 2. Clone this repository to your local machine:
 ```
    git clone https://github.com/jadcloudtech/eviz.git
 ```
-   Navigate to the project directory:
+
+3. Navigate to the project directory:
 ```
     cd eviz
 ```
+
 4. Customize Variables (if needed):
-      If your application requires any environment variables, you can customize them in the .config file. Make sure to set appropriate values for your environment.
+      
+      - If your application requires any environment variables, you can customize them in the .config file. Make sure to set appropriate values for your environment.
+
+      - Update the GF_SERVER_ROOT_URL to proper DNS name or IP in .env file
+
 5. Start the Application:
      Run the following command to start the application using Docker Compose:
 ```
+    source .env
     mkdir /data    #loki data location
     chmod -R 777 /data
     docker network create eviz-network
