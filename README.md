@@ -41,7 +41,7 @@ Follow these steps to set up Eviz and start monitoring your infrastructure:
 
 2. Clone this repository to your local machine:
 ```
-   git clone https://github.com/jadcloudtech/eviz.git
+   git clone https://github.com/multiaccess/eviz.git
 ```
 
 3. Navigate to the project directory:

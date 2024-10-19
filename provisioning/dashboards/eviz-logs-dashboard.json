@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 6,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -147,8 +147,8 @@
             "type": "Loki",
             "uid": "Loki"
           },
-          "editorMode": "builder",
-          "expr": "{job=\"mail_logs\", server=\"$server\"} |= `from=<$From` |= `to=<$To` |= `$identifier`",
+          "editorMode": "code",
+          "expr": "{job=\"mail_logs\", server=\"$server\"} |= `$From` |= `$To` |= `$identifier`",
           "queryType": "range",
           "refId": "A"
         }
@@ -243,13 +243,13 @@
     ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-15m",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Eviz Logs",
-  "uid": "aa9d68f8-3eb6-408b-8ebf-c8f0d4d2307b",
-  "version": 18,
+  "title": "Eviz-Logs",
+  "uid": "aa9d68f8-3eb6-408b-8ebf-c8f0d4d2307be",
+  "version": 2,
   "weekStart": ""
 }
