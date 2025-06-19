@@ -138,7 +138,7 @@
         "showCommonLabels": false,
         "showLabels": false,
         "showTime": false,
-        "sortOrder": "Descending",
+        "sortOrder": "Ascending",
         "wrapLogMessage": false
       },
       "targets": [
@@ -148,7 +148,7 @@
             "uid": "Loki"
           },
           "editorMode": "code",
-          "expr": "{job=\"mail_logs\", server=\"$server\"} |= `$From` |= `$To` |= `$identifier`",
+          "expr": "{job=\"mail_logs\", server=\"$server\"} |= `from=<$From` |= `to=<$To` |= `$identifier`",
           "queryType": "range",
           "refId": "A"
         }
