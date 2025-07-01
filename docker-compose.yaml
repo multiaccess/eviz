@@ -85,8 +85,8 @@ services:
         condition: on-failure
       resources:
         limits:
-          cpus: "0.5"
-          memory: 500M
+          cpus: "1"
+          memory: 1000M
     networks:
       - eviz-network
 
@@ -104,5 +104,18 @@ services:
       - "3100:3100" 
     expose:
       - 3100
+    networks:
+      - eviz-network
+  
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.47.1
+    container_name: cadvisor
+    volumes:
+      - "/:/rootfs:ro"
+      - "/var/run:/var/run:ro"
+      - "/sys:/sys:ro"
+      - "/var/lib/docker/:/var/lib/docker:ro"
+    ports:
+      - "8081:8080"
     networks:
       - eviz-network
