@@ -132,7 +132,7 @@
         }
       ],
       "options": {
-        "dedupStrategy": "none",
+        "dedupStrategy": "exact",
         "enableLogDetails": true,
         "prettifyLogMessage": false,
         "showCommonLabels": false,
@@ -149,6 +149,7 @@
           },
           "editorMode": "code",
           "expr": "{job=\"mail_logs\", server=\"$server\"} |= `from=<$From` |= `to=<$To` |= `$identifier`",
+          "maxLines": 10000,
           "queryType": "range",
           "refId": "A"
         }
